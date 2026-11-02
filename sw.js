@@ -1,17 +1,13 @@
 /* Offline shell only. Profile, recipes and plans are stored by storage.js. */
-const CACHE = 'sondagsro-shell-v1';
-const SHELL = [
-  './', './index.html', './style.css', './manifest.webmanifest', './icon.svg', './apple-touch-icon.png',
-  './src/app.js', './src/storage.js', './src/data.js', './src/engine.js', './src/offers.js', './src/visuals.js',
-  './docs/INSTALLATION.md', './docs/NUTRITION.md', './docs/SOURCES.md'
-];
+const CACHE = 'sondagsro-flat-v2';
+const SHELL = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png'];
 self.addEventListener('install', event => {
   // All-or-nothing installation avoids claiming offline readiness with missing code.
   // A new worker waits until the old app windows are closed before activation.
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(SHELL)));
 });
 self.addEventListener('activate', event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('sondagsro-shell-') && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith('sondagsro-flat-') && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener('fetch', event => {
   const request = event.request;

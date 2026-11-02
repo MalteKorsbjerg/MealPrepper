@@ -1,11 +1,905 @@
 <!doctype html>
 <html lang="da">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta charset="UTF-8"><meta name="sondagsro-build" content="github-flat-v2"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#254d3f"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="description" content="Din uge, gjort lidt lettere. Mealprep, indkøb og opskrifter, gemt på din egen enhed.">
   <title>Søndagsro · Din uge, gjort lidt lettere</title>
-  <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="./icon.svg"><link rel="apple-touch-icon" href="./apple-touch-icon.png"><link rel="stylesheet" href="./style.css">
+  <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODAgMTgwIj48cmVjdCB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgcng9IjQyIiBmaWxsPSIjMjU0ZDNmIi8+PHBhdGggZD0iTTkyIDEyOVY3Nk05MCA5NUM1MiA5NyA0NSA2OCA0NyA0OGMzMi0yIDUwIDE1IDQzIDQ3Wk05MiA3OGMtNC0yOSAxNC00NCA0My00NCAyIDI4LTEwIDQ3LTQzIDQ0WiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZTVlZGM5IiBzdHJva2Utd2lkdGg9IjkiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjwvc3ZnPgo="><link rel="apple-touch-icon" href="./apple-touch-icon.png"><style>:root{--ink:#243d32;--green:#254d3f;--muted:#7a8177;--bg:#f8f8f3;--line:#e5e7dc;--lime:#e5edc9;--orange:#bc7845;--white:#fff;--radius:20px;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--bg);font-size:14px;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,select,textarea{font:inherit}button,a,input,select,textarea{-webkit-tap-highlight-color:transparent}button{cursor:pointer}button:disabled{opacity:.5;cursor:wait}button,a{touch-action:manipulation}a{color:var(--green)}button:focus-visible,a:focus-visible{outline:3px solid #b3cc68;outline-offset:4px}button{border:0}svg{vertical-align:middle}.icon{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}.shell{min-height:100vh;display:grid;grid-template-columns:230px 1fr}.sidebar{position:fixed;inset:0 auto 0 0;width:230px;padding:34px 24px;background:#f0f2e9;border-right:1px solid var(--line);display:flex;flex-direction:column;z-index:10}.brand{display:flex;gap:10px;align-items:center;color:var(--green);font-family:Georgia,serif;font-size:27px;letter-spacing:-1.3px;text-decoration:none}.brand-mark{background:var(--green);color:var(--lime);border-radius:11px;padding:7px;display:flex}.brand-mark .icon{width:24px;height:24px}.tagline{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin:14px 0 48px 4px}.nav{display:flex;flex-direction:column;gap:7px}.nav button{display:flex;align-items:center;gap:13px;text-align:left;padding:14px 15px;background:transparent;color:#6b7569;border-radius:10px;font-weight:500}.nav button.active{background:var(--green);color:white}.nav button:hover:not(.active){background:#e5e9db}.nav-label{flex:1}.nav-count{font-size:10px;background:#dfe6d2;color:#47613a;border-radius:4px;padding:2px 5px}.sidebar-bottom{margin-top:auto}.local-note{display:flex;gap:9px;align-items:center;font-size:11px;color:#6d7968;border-top:1px solid #dce1d2;padding-top:20px;line-height:1.7}.sidebar-bottom>button{background:none;color:#6c7666;font-size:12px;padding:16px 0;display:flex;gap:8px;align-items:center}.main{grid-column:2;min-width:0}.topbar{height:82px;border-bottom:1px solid var(--line);padding:0 42px;display:flex;align-items:center;justify-content:space-between;gap:15px;background:#fafbf6}.breadcrumb{font-size:12px;color:var(--muted);display:flex;gap:13px;align-items:center}.breadcrumb strong{color:var(--ink);font-weight:500}.top-actions{display:flex;align-items:center;gap:17px}.offline-dot{font-size:11px;color:#67795a;display:flex;align-items:center;gap:7px}.dot{width:6px;height:6px;border-radius:50%;background:#71935c}.avatar{width:34px;height:34px;border-radius:50%;background:#e2e7d6;color:var(--green);display:grid;place-items:center}.content{max-width:1320px;margin:0 auto;padding:37px 42px 55px}.eyebrow{text-transform:uppercase;font-size:10px;font-weight:600;letter-spacing:2px;color:#7b856c;display:flex;align-items:center;gap:8px;margin:0 0 12px}.page-heading{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:28px}h1,h2,h3,p{margin-top:0}h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:43px;letter-spacing:-1.5px;line-height:1.1;margin-bottom:12px}h2{font-family:Georgia,serif;font-weight:400;font-size:25px;letter-spacing:-.6px;margin-bottom:6px}h3{font-size:16px;margin-bottom:8px}p{line-height:1.65}.subtitle{font-size:13px;color:var(--muted);margin:0}.primary,.secondary,.ghost,.danger{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;border-radius:9px;font-weight:550;font-size:12px;white-space:nowrap}.primary{background:var(--green);color:#fff}.primary:hover{background:#376550}.secondary{background:#fff;border:1px solid #dce1d3;color:var(--green)}.ghost{background:transparent;color:var(--green);padding:8px}.danger{background:#f9e9dd;color:#924c24}.small{font-size:11px;padding:9px 12px}.planner-bar{display:flex;flex-wrap:wrap;align-items:center;gap:20px;padding:18px 23px;background:#fff;border:1px solid var(--line);border-radius:13px;margin-bottom:22px}.planner-bar>label{display:flex;align-items:center;gap:9px;font-size:11px;color:#737c6c}.planner-bar select,.planner-bar input{padding:5px 2px;border:0;color:var(--ink);font-size:12px;font-weight:550;background:transparent;max-width:135px}.planner-bar .bar-divider{height:22px;width:1px;background:var(--line)}.planner-bar .ghost{margin-left:auto;font-size:11px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;margin-bottom:24px}.stat{border:1px solid var(--line);border-radius:13px;padding:19px 22px;background:#fff;min-height:111px;position:relative}.stat:first-child{background:var(--green);color:white;border-color:var(--green)}.stat-label{font-size:11px;color:#7b8475;display:flex;justify-content:space-between;align-items:center}.stat:first-child .stat-label{color:#d0dbc8}.stat-value{font-size:29px;font-weight:450;letter-spacing:-1px;margin-top:9px;line-height:1.1}.stat-value span{font-size:13px;letter-spacing:0;margin-left:4px}.stat-note{font-size:10px;color:#8a927f;margin-top:8px}.stat:first-child .stat-note{color:#bdceb1}.notice{padding:13px 17px;border-radius:10px;border:1px solid #e7dcc5;background:#fcf8ee;color:#836638;display:flex;align-items:flex-start;gap:10px;font-size:11px;line-height:1.6;margin-bottom:25px}.notice.success{background:#eef2e4;border-color:#e0e7d4;color:#5c7151}.notice .icon{width:17px;height:17px;margin-top:1px}.notice a{color:inherit}.section-heading{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:29px 0 17px}.section-heading p{font-size:11px;color:var(--muted);margin:7px 0 0}.section-heading .ghost{font-size:11px}.week-layout{display:grid;grid-template-columns:minmax(0,1fr) 265px;gap:24px}.days{display:flex;gap:5px;background:#ecefe5;padding:5px;border-radius:11px;margin-bottom:20px}.day-tab{flex:1;padding:9px 3px;background:transparent;border-radius:8px;font-size:10px;color:#7c8574}.day-tab strong{display:block;font-size:12px;font-weight:550;color:var(--ink);margin-bottom:5px}.day-tab.active{background:#fff;box-shadow:0 1px 5px #283c2310}.day-tab.active strong{color:var(--green)}.meal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.meal-card{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;position:relative}.food-visual{width:100%;height:175px;position:relative;overflow:hidden;background:#ede9df;display:grid;place-items:center}.food-visual svg{width:100%;height:100%}.meal-top-tag{position:absolute;left:12px;top:12px;display:flex;gap:5px;align-items:center;border-radius:5px;padding:6px 8px;background:#fffffff0;font-size:9px;color:#46523c;font-weight:600;letter-spacing:.3px}.meal-top-tag .icon{width:12px;height:12px}.meal-content{padding:18px}.meal-day{font-size:9px;color:#8b947d;letter-spacing:1.3px;text-transform:uppercase;margin-bottom:8px}.meal-content h3{font-family:Georgia,serif;font-weight:400;font-size:21px;letter-spacing:-.5px;line-height:1.25;margin-bottom:8px}.meal-desc{font-size:11px;color:#858a7f;margin-bottom:13px;line-height:1.6;min-height:34px}.meal-meta{display:flex;gap:13px;font-size:10px;color:#818a76;margin-bottom:17px}.meal-meta span{display:flex;gap:4px;align-items:center}.meal-meta .icon{width:13px;height:13px}.macros{display:grid;grid-template-columns:repeat(4,1fr);padding:13px 0;border-top:1px solid #eef0e9;border-bottom:1px solid #eef0e9;gap:5px}.macro{font-size:9px;color:#8b9183}.macro b{display:block;font-size:13px;font-weight:600;color:var(--ink);margin-bottom:5px}.macro.protein b{color:#718c44}.meal-footer{display:flex;align-items:center;justify-content:space-between;margin-top:12px;gap:8px}.text-link{background:none;color:var(--green);font-size:11px;font-weight:550;padding:5px 0;display:flex;gap:6px;align-items:center}.icon-button{background:#f4f6ee;border-radius:6px;padding:7px;color:#768269;display:grid;place-items:center}.icon-button .icon{width:14px;height:14px}.side-panel{background:#edf1e3;border:1px solid #e2e8d5;border-radius:14px;padding:23px 20px;margin-bottom:18px}.side-panel h3{font-family:Georgia,serif;font-size:21px;font-weight:400;letter-spacing:-.5px;margin-top:11px;margin-bottom:10px}.side-panel p{font-size:11px;color:#79826b;line-height:1.8;margin-bottom:17px}.side-panel .primary{width:100%;margin-top:5px}.store-list{display:flex;flex-direction:column;gap:14px;margin:21px 0}.store-status{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:11px}.store-status small{font-size:9px;color:#89927a}.store-logo{font-weight:750;font-size:11px;letter-spacing:-.2px}.store-logo.rema{color:#275a94}.store-logo.netto{background:#f7d638;padding:3px 6px;color:#151a14;border-radius:3px}.store-logo.superbrugsen{color:#a63b36}.store-logo.meny{color:#be3336;font-size:13px;letter-spacing:1px}.store-logo.discount365{color:#31854c}.panel-foot{border-top:1px solid #dce3cc;padding-top:13px;font-size:10px;color:#829071;line-height:1.7}.tip-card{border:1px solid var(--line);border-radius:13px;padding:19px 20px}.tip-card p{font-size:11px;color:#858d7a;line-height:1.8;margin:9px 0 0}.tip-label{font-size:10px;color:#6c7a5d;display:flex;align-items:center;gap:7px}.footer-note{display:flex;align-items:center;gap:7px;color:#8e9685;font-size:10px;margin:30px 0 0}.footer-note .icon{width:13px;height:13px}.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px;margin-bottom:18px}.card-header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.badge{display:inline-flex;gap:5px;align-items:center;background:#edf2e3;color:#6d8057;font-size:10px;padding:5px 8px;border-radius:5px}.badge.warning{background:#fcf0dc;color:#9c7539}.muted{color:var(--muted)}.tiny{font-size:11px}.list-row{display:flex;gap:12px;align-items:center;padding:15px 0;border-bottom:1px solid #eff0e9}.list-row:last-child{border:0}.list-row .row-info{flex:1;min-width:0}.list-row p{font-size:11px;color:#7c8574;margin:5px 0 0}.list-row b{font-size:13px;font-weight:550}.list-row.checked{opacity:.5}.list-row.checked b{text-decoration:line-through}.list-row input[type=checkbox]{accent-color:var(--green);width:20px;height:20px;flex-shrink:0}.row-price{font-size:13px;font-weight:600;text-align:right;white-space:nowrap}.row-price small{font-size:10px;font-weight:400;display:block;color:var(--muted);margin-top:5px}.two-columns{display:grid;grid-template-columns:1.3fr 1fr;gap:23px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:8px;font-size:11px;color:#6d7965}.field input,.field select,.field textarea{background:#fafbf7;border:1px solid #dfe4d6;border-radius:7px;padding:11px;color:var(--ink);min-width:0;width:100%}.field textarea{min-height:80px;resize:vertical}.field.full{grid-column:1/-1}.field small{font-size:10px;line-height:1.6;color:#8a9381}.check-field{display:flex;align-items:center;gap:8px;font-size:12px;color:#65735c;margin:12px 0}.check-field input{accent-color:var(--green);width:17px;height:17px}.form-actions{display:flex;justify-content:flex-end;gap:10px;margin-top:22px;flex-wrap:wrap}.dialog-backdrop{position:fixed;inset:0;z-index:100;background:#182d2390;backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:25px}.dialog{background:var(--bg);border-radius:20px;padding:28px;max-width:650px;width:100%;max-height:90dvh;overflow:auto;box-shadow:0 25px 90px #152c2540}.dialog-header{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:22px}.dialog-header h2{margin:0}.dialog-header button{background:#e9eddf;border-radius:50%;padding:8px;color:var(--green)}.dialog p{font-size:12px;color:#738067}.dialog h3{margin-top:25px}.dialog .food-visual{border-radius:12px;height:210px;margin-bottom:20px}.step{display:flex;gap:13px;font-size:12px;line-height:1.8;margin:15px 0}.step-number{flex-shrink:0;background:#e8eddd;border-radius:50%;width:25px;height:25px;display:grid;place-items:center;font-size:10px;color:#657b4d}.ingredient-row{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:10px 0;font-size:12px;gap:12px}.empty{padding:40px 20px;text-align:center;color:var(--muted)}.empty .icon{width:35px;height:35px;margin-bottom:16px;color:#9ca88b}#toast{position:fixed;z-index:200;bottom:30px;left:50%;transform:translateX(-50%) translateY(120px);background:var(--green);color:white;border-radius:9px;max-width:90%;padding:14px 22px;box-shadow:0 4px 20px #17352630;font-size:12px;transition:transform .25s;pointer-events:none}#toast.show{transform:translateX(-50%) translateY(0)}.source-link{word-break:break-word}.inline-actions{display:flex;gap:8px;flex-wrap:wrap}.progress{height:5px;background:#e6ebdd;border-radius:4px;overflow:hidden;margin-top:9px}.progress>span{display:block;height:100%;background:#8b9f67;max-width:100%}.prep-summary{display:flex;gap:10px;margin:15px 0;flex-wrap:wrap}.prep-summary .badge{font-size:11px}.prep-boxes{background:#f3f5ec;padding:14px;border-radius:8px;font-size:11px;line-height:1.9;margin:13px 0}.recipe-picker{display:flex;gap:13px;align-items:center;width:100%;text-align:left;padding:16px;background:#fff;border:1px solid var(--line);border-radius:10px;margin:9px 0;color:var(--ink)}.recipe-picker:hover{border-color:#889f6c}.recipe-picker>span{flex:1}.recipe-picker small{display:block;color:var(--muted);margin-top:6px}.status-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.chain-card{border:1px solid var(--line);border-radius:13px;background:#fff;padding:21px;display:flex;flex-direction:column}.chain-card p{font-size:12px;color:var(--muted);line-height:1.7}.chain-card .inline-actions{margin-top:auto}.chain-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}.offer-details{font-size:11px;color:#78836d;line-height:1.9}.targets-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.targets-grid input{width:100%}.loading{padding:40px}.mobile-brand{display:none}.no-wrap{white-space:nowrap}.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+@media(min-width:1500px){.content{padding-top:45px}.food-visual{height:210px}.meal-content{padding:22px}.week-layout{grid-template-columns:minmax(0,1fr) 290px}}
+@media(max-width:1150px){.sidebar{width:190px;padding:30px 18px}.shell{grid-template-columns:190px 1fr}.brand{font-size:23px}.content{padding:30px 27px}.topbar{padding:0 27px}.week-layout{grid-template-columns:minmax(0,1fr)}.week-aside{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:start}.side-panel{margin:0}.tip-card{height:100%}.planner-bar{gap:12px}.stat{padding:17px}.two-columns{grid-template-columns:1fr}}
+@media(max-width:750px){.shell{display:block}.sidebar{position:fixed;inset:auto 0 0;width:100%;height:calc(67px + env(safe-area-inset-bottom));padding:4px 8px env(safe-area-inset-bottom);border-right:0;border-top:1px solid var(--line);background:#fafbf7f5;backdrop-filter:blur(15px)}.sidebar>.brand,.tagline,.sidebar-bottom{display:none}.nav{flex-direction:row;justify-content:space-around;gap:0}.nav button{padding:9px 4px 6px;flex-direction:column;gap:5px;border-radius:8px;flex:1;font-size:9px;min-width:0}.nav button.active{background:transparent;color:var(--green);font-weight:700}.nav button.active .icon{stroke-width:2.3}.nav button .icon{width:21px;height:21px}.nav-count{display:none}.topbar{height:64px;padding:0 20px}.breadcrumb{display:none}.mobile-brand{display:flex;font-size:23px}.mobile-brand .brand-mark{padding:5px;border-radius:8px}.mobile-brand .brand-mark .icon{width:20px;height:20px}.top-actions{gap:12px}.offline-dot{font-size:9px}.avatar{width:30px;height:30px}.content{padding:25px 18px 105px}.page-heading{align-items:flex-start;margin-bottom:21px;gap:12px;flex-wrap:wrap}h1{font-size:35px;margin-bottom:10px}.eyebrow{font-size:9px;letter-spacing:1.6px;margin-bottom:11px}.subtitle{font-size:12px}.page-heading>.primary{width:100%;padding:14px;margin-top:3px}.page-heading>.secondary{font-size:11px;padding:10px}.planner-bar{padding:12px 13px;gap:7px 12px;border-radius:10px;margin-bottom:15px}.planner-bar>label{font-size:10px;gap:5px}.planner-bar select,.planner-bar input{font-size:11px;max-width:119px}.planner-bar .bar-divider{display:none}.planner-bar .ghost{font-size:10px;padding:7px 0}.stats{grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px}.stat{min-height:105px;padding:15px}.stat-value{font-size:26px}.stat-note{font-size:9px}.stat-label{font-size:10px}.notice{font-size:10px;padding:12px 13px;margin-bottom:21px}.section-heading{margin:22px 0 15px}.section-heading h2{font-size:24px}.section-heading .ghost{font-size:10px;padding:6px 0}.week-layout{gap:18px}.days{gap:2px;padding:4px;margin-bottom:16px}.day-tab{font-size:9px;padding:8px 2px}.day-tab strong{font-size:11px}.meal-grid{gap:12px}.food-visual{height:130px}.meal-content{padding:13px 12px}.meal-content h3{font-size:19px}.meal-desc{font-size:10px;min-height:45px;margin-bottom:10px}.meal-meta{gap:8px;font-size:9px;flex-wrap:wrap;margin-bottom:12px}.meal-day{font-size:8px;letter-spacing:.8px}.meal-top-tag{font-size:8px;padding:5px 6px;left:8px;top:8px}.macros{gap:3px;padding:10px 0}.macro{font-size:8px}.macro b{font-size:11px}.meal-footer .text-link{font-size:10px}.meal-footer .icon-button{padding:6px}.week-aside{grid-template-columns:1fr;gap:15px}.side-panel{padding:20px}.side-panel h3{font-size:23px}.store-list{display:grid;grid-template-columns:1fr 1fr;gap:17px}.tip-card{padding:17px}.footer-note{font-size:9px;line-height:1.6;align-items:flex-start}.status-grid{grid-template-columns:1fr}.form-grid{gap:13px}.card{padding:18px}.dialog-backdrop{padding:12px;align-items:flex-end}.dialog{padding:23px 19px;border-radius:19px;max-height:92dvh}.dialog .food-visual{height:170px}.dialog-header h2{font-size:24px}.targets-grid{grid-template-columns:repeat(2,1fr)}#toast{bottom:90px;width:max-content;text-align:center;line-height:1.7}.two-columns{gap:10px}.list-row{gap:10px}.row-price{font-size:12px}.list-row b{font-size:12px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+</style>
 </head>
-<body><div id="app"><p class="loading">Søndagsro · Gør køkkenet klar…</p></div><div id="dialog-root"></div><div id="toast" role="status" aria-live="polite"></div><script type="module" src="./src/app.js"></script></body>
+<body><div id="app"><p class="loading">Søndagsro · Gør køkkenet klar…</p></div><div id="dialog-root"></div><div id="toast" role="status" aria-live="polite"></div><script>
+(function(){
+ function failed(message){var root=document.querySelector('#app');if(!root||!root.querySelector('.loading'))return;root.innerHTML='';var title=document.createElement('h1');title.textContent='Appen kunne ikke starte';var text=document.createElement('p');text.textContent=message;root.appendChild(title);root.appendChild(text);root.style.padding='28px';}
+ window.addEventListener('error',function(e){failed(e.message||'En appfil kunne ikke indlæses.');});
+ window.addEventListener('unhandledrejection',function(e){failed(e.reason&&e.reason.message||'Opstarten blev afbrudt.');});
+ setTimeout(function(){failed('Denne udgave blev ikke indlæst. Kontrollér, at index.html fra GitHub-udgave 2 er uploadet, og genindlæs siden.');},8000);
+})();
+</script><script type="module">const __modules = Object.create(null);
+__modules["data.js"]=(()=>{
+// All quantities are grams of edible ingredient, per person and serving.
+// Display carbohydrate consistently excluding fibre. Preserve the original USDA total.
+// The conversion is an estimate, not an analytically measured EU declaration.
+const USDA_FIBER = {
+  171077: 0, 172850: 0, 171790: 0, 168249: 0, 175167: 0,
+  169756: 1.3, 169736: 3.2, 170026: 2.1, 170379: 2.6, 170393: 2.8,
+  170000: 1.7, 170108: 2.1, 169975: 2.5, 170501: 1.9, 174285: 5.5,
+  171413: 0, 173904: 10.1, 171688: 2.4, 171287: 0,
+};
+const usda = (id, food) => ({ name: `USDA FoodData Central · SR Legacy · ${food} · FDC ${id}`, url: `https://fdc.nal.usda.gov/fdc-app.html#/food-details/${id}/nutrients`, id, checkedAt: '2026-11-02', basis: '100 g spiselig del' });
+const food = (name, kcal, protein, carbsTotal, fat, id, english, extra = {}) => {
+  const fiber = USDA_FIBER[id];
+  if (!Number.isFinite(fiber)) throw new Error(`Missing documented fibre for FDC ${id}`);
+  return { name, kcal, protein, carbs: Number((carbsTotal - fiber).toFixed(4)), carbsTotal, fiber, fat, carbohydrateBasis: 'USDA total minus dietary fibre; estimated available carbohydrate', source: usda(id, english), weightState: 'raw-edible', weightNote: 'Rå, spiselig vægt; uden ben, skræl og andet affald, hvor relevant.', ...extra };
+};
+
+const INGREDIENTS = {
+  chicken: food('Kyllingebryst uden skind og ben', 120, 22.5, 0, 2.62, 171077, 'Chicken, breast, skinless, boneless, meat only, raw', { isMeat: true, category: 'meat' }),
+  turkey: food('Hakket kalkun, ca. 7 % fedt', 172, 21.41, 0, 7, 172850, 'Turkey, ground, 93% lean, 7% fat, raw', { isMeat: true, category: 'meat' }),
+  beef: food('Hakket oksekød, 5 % fedt', 137, 21.41, 0, 5, 171790, 'Beef, ground, 95% lean meat / 5% fat, raw', { isMeat: true, category: 'meat' }),
+  pork: food('Svinemørbrad, afpudset', 109, 20.95, 0, 2.17, 168249, 'Pork, fresh, loin, tenderloin, separable lean only, raw', { isMeat: true, category: 'meat' }),
+  salmon: food('Laksefilet, opdrættet, uden ben', 208, 20.42, 0, 13.42, 175167, 'Fish, salmon, Atlantic, farmed, raw', { category: 'fish' }),
+  rice: food('Ris, tørre', 365, 7.13, 79.95, 0.66, 169756, 'Rice, white, long-grain, regular, raw, unenriched', { category: 'grain', weightState: 'dry', weightNote: 'Tør vægt før kogning. Vand ændrer vægten, men tilfører ingen næring.' }),
+  pasta: food('Pasta, tør', 371, 13.04, 74.67, 1.51, 169736, 'Pasta, dry, enriched', { category: 'grain', weightState: 'dry', weightNote: 'Tør vægt før kogning; kogt pasta må ikke vejes som tør pasta.' }),
+  potato: food('Kartofler, med spiselig skræl', 77, 2.05, 17.49, 0.09, 170026, 'Potatoes, flesh and skin, raw'),
+  broccoli: food('Broccoli', 34, 2.82, 6.64, 0.37, 170379, 'Broccoli, raw'),
+  carrot: food('Gulerødder', 41, 0.93, 9.58, 0.24, 170393, 'Carrots, raw'),
+  onion: food('Løg', 40, 1.1, 9.34, 0.1, 170000, 'Onions, raw'),
+  pepper: food('Rød peberfrugt', 31, 0.99, 6.03, 0.3, 170108, 'Peppers, sweet, red, raw'),
+  cabbage: food('Hvidkål', 25, 1.28, 5.8, 0.1, 169975, 'Cabbage, raw'),
+  tomato: food('Knuste tomater, konserves', 32, 1.64, 7.29, 0.28, 170501, 'Tomatoes, crushed, canned', { weightState: 'as-sold', weightNote: 'Hele dåsens indhold, inklusive tomatsaft.' }),
+  kidneyBeans: food('Kidneybønner, konserves, drænede', 124, 7.98, 21.49, 1.05, 174285, 'Beans, kidney, red, mature seeds, canned, drained solids', { weightState: 'drained', weightNote: 'Drænet vægt. Indtast pakkens drænede gram som pakningsstørrelse, ikke nettovægt inklusive lage.' }),
+  oil: food('Olivenolie', 884, 0, 0, 100, 171413, 'Oil, olive, salad or cooking', { weightState: 'as-sold', weightNote: 'Vejes i gram. Brug nettovægten i gram, ikke flaskens milliliter, ved prisindtastning.' }),
+  oats: food('Havregryn, tørre', 379, 13.15, 67.7, 6.52, 173904, 'Cereals, oats, regular and quick, not fortified, dry', { weightState: 'dry', weightNote: 'Tør vægt. Eventuelt vand til grøden tælles ikke som havregryn.' }),
+  apple: food('Æble med skræl, uden kernehus', 52, 0.26, 13.81, 0.17, 171688, 'Apples, raw, with skin'),
+  egg: food('Æg, uden skal', 143, 12.56, 0.72, 9.51, 171287, 'Egg, whole, raw, fresh', { weightNote: 'Rå, spiselig vægt uden skal. 100 g er omtrent to æg; vej ved andre størrelser. Indtast pakkens samlede spiselige gram.' }),
+  skyr: { name: 'Skyr naturel, 0,2 %', kcal: 61, protein: 10, carbs: 4, fiber: 0, fat: 0.2, carbohydrateBasis: 'EU product declaration, excluding dietary fibre', weightState: 'as-sold', weightNote: 'Produktreference: Arla Pro skyr naturel 0,2 %. Andre mærker kan afvige.', source: { name: 'Arla Pro · Skyr Naturel 0,2 % · vare 26707 · næringsdeklaration', url: 'https://www.arlapro.com/da/produkter/skyr-naturel-02pct-5kg-26707/', checkedAt: '2026-11-02', basis: '100 g' } },
+  ryeBread: { name: 'Solsikkerugbrød', kcal: 242, protein: 6.6, carbs: 33, fiber: 9.3, fat: 7.3, carbohydrateBasis: 'EU product declaration, excluding dietary fibre', weightState: 'as-sold', weightNote: 'Produktreference: Schulstad Det Gode Solsikkerugbrød 950 g, klar til brug. Andre brød kan afvige.', source: { name: 'Schulstad · Det Gode Solsikkerugbrød 19291 · næringsdeklaration', url: 'https://www.schulstad.dk/alle-produkter/det-gode-solsikkerugbrod-950-g/', checkedAt: '2026-11-02', basis: '100 g' } },
+};
+
+const cooling = 'Fordel straks i lave madkasser, og køl hurtigt ned. Opbevar ved højst 5 °C. Spis køleskabsportioner inden for 2 dage. Frys straks portioner til senere på ugen, mærk med dag, og tø i køleskab. Genopvarm én gang til gennemvarm, mindst 75 °C. Hold kolde skyrdressinger adskilt.';
+const portions = 'Alle ingrediensmængder er pr. person. Ved flere portioner ganges hver mængde med antallet af madkasser. Fordel den færdige ret ligeligt; rå gram er ikke færdig vægt.';
+const ing = (...pairs) => pairs.map(([id, grams]) => ({ id, grams }));
+const dinner = (id, name, description, ingredients, steps, minutes = 30, diet = 'meat') => ({ id, name, description, category: 'dinner', diet, ingredients, steps, minutes, storage: cooling, portionNote: portions });
+
+const RECIPES = [
+  dinner('chicken-rice', 'Kylling, ris & grøn broccoli', 'En enkel proteinrig madkasse med cremet skyr ved siden af.', ing(['chicken',200],['rice',60],['broccoli',200],['carrot',100],['oil',7],['skyr',50]), [
+    'Vej risene tørre. Skyl, og kog i vand efter pakkens anvisning.',
+    'Skær kylling i lige store tern. Varm den afmålte olie på en pande, og gennemsteg kyllingen til mindst 75 °C i centrum.',
+    'Skær gulerødder i tynde skiver og broccoli i små buketter. Damp i 5–8 minutter, til grøntsagerne er møre med bid.',
+    'Fordel ris, kylling og grøntsager ligeligt mellem madkasserne. Pak den afmålte skyr separat som kold dressing.'
+  ]),
+  dinner('chicken-paprika', 'Kyllingegryde med sød peber', 'Saftig tomatsauce, peberfrugt og ris fra én gryde og én kasserolle.', ing(['chicken',200],['rice',60],['pepper',150],['onion',60],['tomato',180],['oil',7]), [
+    'Kog de tørre ris efter pakkens anvisning.',
+    'Skær kylling, peberfrugt og løg i tern. Varm olien i en gryde, og steg løgene 3 minutter.',
+    'Tilsæt kylling og peberfrugt, og steg 5 minutter under omrøring. Tilsæt knuste tomater og 50 g vand pr. portion.',
+    'Lad simre 12–15 minutter. Kontrollér, at kyllingen når mindst 75 °C. Fordel gryderet og ris ligeligt.'
+  ]),
+  dinner('turkey-chili', 'Kalkungryde med bønner', 'Kalkun, kidneybønner og grøntsager i en fyldig tomatgryde.', ing(['turkey',200],['kidneyBeans',80],['rice',40],['onion',60],['pepper',100],['tomato',180],['oil',5]), [
+    'Kog de tørre ris efter pakkens anvisning. Dræn bønnerne, og vej dem efter dræning.',
+    'Hak løg og peberfrugt. Varm olien, og steg løg 3 minutter. Tilsæt kalkun, og del kødet med en ske.',
+    'Tilsæt peberfrugt og tomater. Lad simre 15 minutter. Rør bønner i de sidste 5 minutter.',
+    'Kontrollér mindst 75 °C i kødet. Fordel gryderetten og risene ligeligt i madkasser.'
+  ], 35),
+  dinner('beef-bolognese', 'Pasta med grøntsagsbolognese', 'Klassisk kødsauce med gulerod, løg og afmålt olie.', ing(['beef',200],['pasta',65],['carrot',150],['onion',60],['tomato',220],['oil',5]), [
+    'Riv gulerødderne, og hak løgene. Varm olien i en gryde, og steg grøntsagerne i 4 minutter.',
+    'Tilsæt oksekød, og brun det, mens du deler det i små stykker.',
+    'Hæld tomater og 50 g vand pr. portion i. Lad saucen simre i 20 minutter. Kødet skal være helt gennemstegt, mindst 75 °C.',
+    'Vej pastaen tør, og kog efter pakkens anvisning. Fordel pasta og sauce ligeligt i madkasser.'
+  ], 35),
+  dinner('pork-wok', 'Svinemørbrad med sprød kål', 'Mager mørbrad med masser af kål, gulerod og ris.', ing(['pork',200],['rice',60],['cabbage',180],['carrot',100],['onion',50],['oil',8]), [
+    'Kog de tørre ris efter pakkens anvisning. Snit kål, gulerødder og løg fint.',
+    'Afpuds mørbraden, og vej kødet efter afpudsning. Skær i tynde strimler.',
+    'Varm halvdelen af olien på en stor pande, og gennemsteg kødet i små hold. Brug resten af olien til grøntsagerne.',
+    'Steg grøntsagerne 7–10 minutter med 30 g vand pr. portion. Vend kødet i, varm godt igennem, og fordel med risene.'
+  ]),
+  dinner('chicken-curry', 'Ovnbagt kylling & tomatkartofler', 'En stor bradepande gør det let at lave flere portioner på én gang.', ing(['chicken',200],['potato',250],['cabbage',150],['tomato',150],['onion',50],['oil',8]), [
+    'Tænd ovnen på 200 °C varmluft. Skær kartofler i små både, kål i strimler og løg i både.',
+    'Vend grøntsagerne med den afmålte olie i en bradepande. Bag 15 minutter.',
+    'Skær kyllingen i store tern. Vend kylling og tomater med grøntsagerne, og bag yderligere 20–25 minutter.',
+    'Kontrollér, at kartoflerne er møre og kyllingens centrum mindst 75 °C. Fordel retten ligeligt mellem madkasser.'
+  ], 45),
+  dinner('turkey-potato', 'Kalkunfrikadeller & ovngrønt', 'Små frikadeller uden mel med kartofler, gulerødder og skyr.', ing(['turkey',200],['potato',250],['carrot',200],['onion',40],['oil',7],['skyr',60]), [
+    'Tænd ovnen på 200 °C varmluft. Skær kartofler og gulerødder i små stykker, og vend med halvdelen af olien.',
+    'Fordel grøntsagerne på bagepapir, og bag 30–35 minutter; vend dem halvvejs.',
+    'Hak løg meget fint, og ælt med kalkunkødet. Form små frikadeller. Steg i resten af olien 5–6 minutter på hver side.',
+    'Kontrollér mindst 75 °C i frikadellernes centrum. Fordel frikadeller og grønt ligeligt. Pak skyr separat.'
+  ], 40),
+  dinner('salmon-bowl', 'Laks med ris & broccoli', 'Aktivt fisketilvalg med 200 g rå laksefilet pr. person.', ing(['salmon',200],['rice',50],['broccoli',250],['carrot',100],['oil',5],['skyr',50]), [
+    'Tænd ovnen på 190 °C. Vej risene tørre, og kog efter pakkens anvisning.',
+    'Læg laksen på bagepapir. Pensl med den afmålte olie, og bag 15–20 minutter, til fisken er helt tilberedt.',
+    'Damp broccoli og skivede gulerødder i 5–8 minutter.',
+    'Fordel laks, ris og grøntsager ligeligt i madkasser. Pak skyr separat. Frys portioner til senere end de næste 2 dage straks efter hurtig nedkøling.'
+  ], 30, 'fish'),
+  dinner('bean-chili', 'Bønnegryde med skyr', 'Aktivt vegetarisk tilvalg med drænede kidneybønner og kold skyr.', ing(['kidneyBeans',250],['rice',45],['cabbage',150],['tomato',180],['onion',60],['oil',7],['skyr',100]), [
+    'Kog de tørre ris efter pakkens anvisning. Dræn bønnerne, og vej dem uden lage.',
+    'Hak løg og snit kålen. Steg løgene i olien 3 minutter; tilsæt kål, og steg yderligere 5 minutter.',
+    'Tilsæt tomater, bønner og 50 g vand pr. portion. Lad simre 15 minutter, og rør undervejs.',
+    'Fordel gryderet og ris ligeligt i madkasser. Pak skyr separat og kom på ved servering.'
+  ], 30, 'vegetarian'),
+  { id:'skyr-oats', name:'Skyrskål med havre & æble', description:'En kold morgenmad, som samles på få minutter.', category:'breakfast', diet:'vegetarian', minutes:5, ingredients:ing(['skyr',250],['oats',60],['apple',150]), steps:['Vej havregryn tørre. Skyl æblet, fjern kernehuset, og skær i tern.', 'Kom skyr, havregryn og æble i en skål. Til køleskabsgrød: tilsæt 50 g vand pr. portion og lad trække natten over.'], storage:'Opbevar ved højst 5 °C, og saml højst 2 dage ad gangen. Frys ikke færdigsamlede skyrskåle. Opbevar resten af æbler og tørre havregryn separat.', portionNote:portions },
+  { id:'egg-breakfast', name:'Æg, rugbrød & gulerødder', description:'Mættende morgenmad med både æg og skyr.', category:'breakfast', diet:'vegetarian', minutes:15, ingredients:ing(['egg',100],['ryeBread',80],['carrot',100],['skyr',100]), steps:['Kog æggene 9–10 minutter, så blomme og hvide er faste. Køl hurtigt ned. Mængden angiver spiselig vægt uden skal.', 'Skær gulerødder i stave. Server med afvejet rugbrød og skyr.'], storage:'Opbevar kogte æg og grønt på køl ved højst 5 °C i højst 2 dage. Tilbered æg senere på ugen i en ny portion. Brød kan fryses i skiver.', portionNote:portions },
+  { id:'chicken-lunch', name:'Kyllingesalat på rugbrød', description:'En frokostmadkasse med sprød kål og skyrdressing.', category:'lunch', diet:'meat', minutes:20, ingredients:ing(['chicken',120],['ryeBread',100],['cabbage',150],['carrot',100],['skyr',70],['oil',5]), steps:['Skær kyllingen i tern, og gennemsteg i den afmålte olie til mindst 75 °C i centrum.', 'Snit kål og riv gulerødder. Vej rugbrød og skyr af.', 'Pak kylling og grøntsager sammen, men hold brød og skyr adskilt indtil servering.'], storage:cooling, portionNote:portions },
+  { id:'bean-lunch', name:'Bønnesalat med rugbrød', description:'En enkel frokost med bønner, kålsalat og skyr.', category:'lunch', diet:'vegetarian', minutes:10, ingredients:ing(['kidneyBeans',180],['ryeBread',80],['cabbage',120],['carrot',100],['skyr',150],['oil',5]), steps:['Dræn bønnerne, og vej dem uden lage. Snit kål, og riv gulerødder.', 'Vend grøntsager og bønner med den afmålte olie. Pak skyr og rugbrød separat.'], storage:'Opbevar på køl ved højst 5 °C i højst 2 dage. Tilbered en ny portion senere på ugen; salat og skyr egner sig dårligt til frysning.', portionNote:portions },
+];
+
+const NUTRITION_NOTE = 'Næring er et beregnet estimat ud fra de afmålte ingredienser i angivet rå/tør/drænet tilstand. Kulhydrat vises uden kostfibre: USDA total minus dokumenterede kostfibre som estimat for tilgængeligt kulhydrat; skyr og rugbrød efter EU-deklaration. Oprindelige USDA-totaler bevares i datagrundlaget. Produktvalg og tilberedning kan ændre resultatet. Olie, tomatsauce og skyrdressing er medregnet. Opskrifterne er udviklet til appen og ikke prøvetilberedt.';
+
+return {INGREDIENTS,RECIPES,NUTRITION_NOTE};
+})();
+__modules["engine.js"]=(()=>{
+/** Local, deterministic planning. Ingredient quantities are RAW EDIBLE / DRY grams. */
+const MACROS = ['kcal', 'protein', 'carbs', 'fat'];
+const WEEKDAYS = ['søndag', 'mandag', 'tirsdag', 'onsdag', 'torsdag', 'fredag', 'lørdag'];
+const MEAT_IDS = new Set(['chicken', 'turkey', 'beef', 'pork']);
+const round = n => Math.round((n + Number.EPSILON) * 100) / 100;
+const goodNumber = n => typeof n === 'number' && Number.isFinite(n) && n >= 0;
+const indexIngredients = ingredients => Array.isArray(ingredients) ? Object.fromEntries(ingredients.map(i => [i.id, i])) : ingredients || {};
+const indexRecipes = recipes => Object.fromEntries((recipes || []).map(r => [r.id, r]));
+const isMeat = (id, ingredients) => ingredients[id]?.isMeat || ingredients[id]?.category === 'meat' || MEAT_IDS.has(id);
+const isISODate = d => typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d) && !Number.isNaN(Date.parse(d)) && new Date(d).toISOString().slice(0, 10) === d;
+
+function normalizeProfile(profile = {}) {
+  return {
+    ...profile,
+    persons: Number(profile.persons) === 2 ? 2 : 1,
+    budget: goodNumber(Number(profile.budget)) ? Number(profile.budget) : 400,
+    mode: profile.mode === 'all' ? 'all' : 'dinner',
+    maxRepeat: Math.min(7, Math.max(1, Math.floor(Number(profile.maxRepeat) || 2))),
+    maxStores: profile.maxStores === 'free' || Number(profile.maxStores) > 2 ? 'free' : Number(profile.maxStores) === 1 ? 1 : 2,
+    date: isISODate(profile.date) ? profile.date : new Date().toISOString().slice(0, 10),
+    postalCode: String(profile.postalCode || ''),
+    members: Array.isArray(profile.members) ? profile.members : [],
+    allowFish: profile.allowFish === true,
+    allowVegetarian: profile.allowVegetarian === true,
+  };
+}
+
+/** Enforces 200 g edible raw meat for every meat dinner serving, including custom recipes. */
+function recipeIngredients(recipe, ingredients = {}) {
+  const map = indexIngredients(ingredients);
+  const rows = (recipe.ingredients || []).map(i => ({ ...i, grams: goodNumber(Number(i.grams)) ? Number(i.grams) : 0 }));
+  if (recipe.category === 'dinner' && recipe.diet === 'meat') {
+    const meat = rows.reduce((n, i) => n + (isMeat(i.id, map) ? i.grams : 0), 0);
+    if (meat > 0) return rows.map(i => isMeat(i.id, map) ? { ...i, grams: i.grams * 200 / meat } : i);
+  }
+  return rows;
+}
+
+function nutritionForRecipe(recipe, ingredients = {}) {
+  const map = indexIngredients(ingredients);
+  const result = { kcal: 0, protein: 0, carbs: 0, fat: 0, complete: true, sources: [] };
+  for (const row of recipeIngredients(recipe, map)) {
+    const item = map[row.id];
+    if (!item) { result.complete = false; continue; }
+    const nutrient = item.nutrition || item;
+    for (const key of MACROS) {
+      if (!goodNumber(nutrient[key])) result.complete = false;
+      else result[key] += row.grams / 100 * nutrient[key];
+    }
+    if (item.source && !result.sources.includes(item.source)) result.sources.push(item.source);
+    if (!item.source) result.complete = false;
+  }
+  for (const key of MACROS) result[key] = round(result[key]);
+  return result;
+}
+
+function eligibleOffers(offers = [], inputProfile = {}) {
+  const profile = normalizeProfile(inputProfile);
+  return offers.filter(o => {
+    if (!o || !o.ingredientId || !o.store || !goodNumber(Number(o.packageGrams)) || Number(o.packageGrams) === 0 || !o.source) return false;
+    const unitPrice = o.price !== null && o.price !== '' && goodNumber(o.price);
+    const bundle = o.multiBuy && Number.isInteger(o.multiBuy.count) && o.multiBuy.count > 0 && goodNumber(o.multiBuy.price);
+    if (!unitPrice && !bundle) return false;
+    if (o.memberOnly && !profile.members.includes(o.store)) return false;
+    // Offers must state their actual validity; documented regular prices may be open-ended.
+    if (o.type !== 'regular' && (!isISODate(o.validFrom) || !isISODate(o.validTo))) return false;
+    if ((o.validFrom && !isISODate(o.validFrom)) || (o.validTo && !isISODate(o.validTo))) return false;
+    if (o.validFrom && o.validFrom > profile.date) return false;
+    if (o.validTo && o.validTo < profile.date) return false;
+    if (o.postalCode && String(o.postalCode) !== profile.postalCode) return false;
+    if (Array.isArray(o.postalCodes) && !o.postalCodes.map(String).includes(profile.postalCode)) return false;
+    return true;
+  });
+}
+
+/** Can buy an additional pack when an all-or-nothing multi-buy costs less. */
+function costForOffer(grams, offer) {
+  const minimum = Math.max(0, Math.ceil((grams - 1e-8) / offer.packageGrams));
+  if (!minimum) return { packages: 0, total: 0, purchasedGrams: 0, leftoverGrams: 0 };
+  const price = goodNumber(offer.price) ? offer.price : null;
+  const deal = offer.multiBuy && Number.isInteger(offer.multiBuy.count) && offer.multiBuy.count > 0 && goodNumber(offer.multiBuy.price) ? offer.multiBuy : null;
+  let best = price === null ? null : { packages: minimum, total: minimum * price };
+  if (deal) {
+    // Only these boundary allocations can be optimal with a linear unit price.
+    const fullBundles = Math.floor(minimum / deal.count);
+    const choices = [0, fullBundles, Math.ceil(minimum / deal.count)];
+    for (const bundles of choices) {
+      const remainder = Math.max(0, minimum - bundles * deal.count);
+      if (remainder > 0 && price === null) continue;
+      const candidate = { packages: bundles * deal.count + remainder, total: bundles * deal.price + remainder * (price || 0) };
+      if (!best || candidate.total < best.total - 1e-8 || candidate.total === best.total && candidate.packages < best.packages) best = candidate;
+    }
+  }
+  if (!best) return null;
+  return { ...best, total: round(best.total), purchasedGrams: best.packages * offer.packageGrams, leftoverGrams: round(best.packages * offer.packageGrams - grams) };
+}
+
+function pantryMap(pantry) {
+  const map = {};
+  if (Array.isArray(pantry)) for (const row of pantry) {
+    const id = row.ingredientId || row.id;
+    if (id && goodNumber(Number(row.grams))) map[id] = (map[id] || 0) + Number(row.grams);
+  }
+  else for (const [id, value] of Object.entries(pantry || {})) {
+    const grams = typeof value === 'object' ? value.grams : value;
+    if (goodNumber(Number(grams))) map[id] = Number(grams);
+  }
+  return map;
+}
+
+function subsets(stores, limit) {
+  if (limit === 'free' || limit >= stores.length) return [stores];
+  const result = [];
+  function visit(start, selected) {
+    if (selected.length) result.push(selected);
+    if (selected.length >= limit) return;
+    for (let i = start; i < stores.length; i++) visit(i + 1, [...selected, stores[i]]);
+  }
+  visit(0, []);
+  return result.length ? result : [[]];
+}
+
+function betterBasket(a, b) {
+  if (!b) return true;
+  if (a.unresolved.length !== b.unresolved.length) return a.unresolved.length < b.unresolved.length;
+  if (a.total !== b.total) return a.total < b.total;
+  if (a.stores.length !== b.stores.length) return a.stores.length < b.stores.length;
+  return a.leftovers.reduce((s, r) => s + r.grams, 0) < b.leftovers.reduce((s, r) => s + r.grams, 0);
+}
+
+/** Requirements MUST be aggregated across every day before packages are rounded. */
+function buildShopping({ requirements = [], ingredients = {}, offers = [], pantry = [], profile: inputProfile = {} }) {
+  const profile = normalizeProfile(inputProfile);
+  const ingredientMap = indexIngredients(ingredients);
+  const stocks = pantryMap(pantry);
+  const sums = {};
+  for (const row of requirements) {
+    const id = row.ingredientId || row.id;
+    if (id && goodNumber(row.grams)) sums[id] = (sums[id] || 0) + row.grams;
+  }
+  const ingredientsRequired = Object.entries(sums).map(([id, grams]) => ({
+    id, ingredientId: id, name: ingredientMap[id]?.name || id,
+    requiredGrams: round(grams), pantryGrams: round(Math.min(grams, stocks[id] || 0)),
+    neededGrams: round(Math.max(0, grams - (stocks[id] || 0))),
+  }));
+  const valid = eligibleOffers(offers, profile);
+  const stores = [...new Set(valid.map(o => o.store))].sort();
+  const possible = subsets(stores, profile.maxStores);
+  let best;
+  for (const subset of possible) {
+    const shopping = [], unresolved = [], leftovers = [];
+    for (const need of ingredientsRequired) {
+      if (need.neededGrams <= 0) continue;
+      let choice;
+      for (const offer of valid) {
+        if (offer.ingredientId !== need.id || !subset.includes(offer.store)) continue;
+        const cost = costForOffer(need.neededGrams, offer);
+        if (!cost) continue;
+        if (!choice || cost.total < choice.total || cost.total === choice.total && cost.leftoverGrams < choice.leftoverGrams) choice = {
+          ...need, ...cost, store: offer.store, packageGrams: Number(offer.packageGrams), price: offer.price,
+          source: offer.source, offerId: offer.id, offer: { ...offer }, id: `${offer.store}-${need.id}`,
+        };
+      }
+      if (choice) {
+        shopping.push(choice);
+        if (choice.leftoverGrams > 0) leftovers.push({ id: need.id, ingredientId: need.id, name: need.name, grams: choice.leftoverGrams });
+      } else unresolved.push({ ...need, reason: 'Ingen gyldig, dokumenteret pris inden for de valgte butikker.' });
+    }
+    const result = { shopping, unresolved, leftovers, ingredientsRequired, total: round(shopping.reduce((s, r) => s + r.total, 0)), stores: [...new Set(shopping.map(r => r.store))] };
+    if (betterBasket(result, best)) best = result;
+  }
+  const complete = best.unresolved.length === 0;
+  return {
+    ...best, complete, knownTotal: best.total,
+    budgetStatus: !complete ? 'unresolved' : best.total <= profile.budget ? 'within' : 'over',
+    remaining: complete ? round(profile.budget - best.total) : null,
+    overBudget: complete ? round(Math.max(0, best.total - profile.budget)) : null,
+  };
+}
+
+function normalizeDays(days) {
+  return days.map((day, index) => {
+    const meals = { ...(day.meals || {}) };
+    for (const type of ['breakfast', 'lunch', 'dinner']) if (!meals[type] && day[type]) meals[type] = typeof day[type] === 'string' ? day[type] : day[type].id;
+    return { ...day, index, meals, ...meals };
+  });
+}
+
+function sumNutrition(values) {
+  const sum = { kcal: 0, protein: 0, carbs: 0, fat: 0, complete: true };
+  for (const value of values) {
+    for (const key of MACROS) sum[key] += value[key];
+    if (!value.complete) sum.complete = false;
+  }
+  for (const key of MACROS) sum[key] = round(sum[key]);
+  return sum;
+}
+
+function calculatePlan({ days = [], profile: inputProfile = {}, recipes = [], ingredients = {}, offers = [], pantry = [] }) {
+  const profile = normalizeProfile(inputProfile);
+  const ingredientMap = indexIngredients(ingredients), recipeMap = indexRecipes(recipes);
+  const normalized = normalizeDays(days);
+  const requirements = [], batches = [], warnings = [];
+  const usedRecipes = new Set(), usedIngredients = new Set();
+  for (const [dayIndex, day] of normalized.entries()) {
+    const values = [];
+    day.mealNutrition = {};
+    for (const [category, recipeId] of Object.entries(day.meals)) {
+      const recipe = recipeMap[recipeId];
+      if (!recipe) { warnings.push(`Opskriften ${recipeId} mangler.`); continue; }
+      usedRecipes.add(recipe.id);
+      const rows = recipeIngredients(recipe, ingredientMap);
+      if (category === 'dinner' && recipe.diet === 'meat' && !rows.some(i => isMeat(i.id, ingredientMap) && i.grams > 0)) warnings.push(`Retten ${recipe.name} mangler råt kød og opfylder ikke portionskravet.`);
+      for (const row of rows) {
+        requirements.push({ id: row.id, grams: row.grams * profile.persons });
+        usedIngredients.add(row.id);
+      }
+      const nutrition = nutritionForRecipe(recipe, ingredientMap);
+      values.push(nutrition);
+      day.mealNutrition[category] = nutrition;
+      // A prep batch spans consecutive days of this recipe in this meal slot.
+      const previous = batches.findLast(b => b.category === category);
+      if (previous && previous.recipeId === recipeId && previous.lastDayIndex === dayIndex - 1) {
+        previous.days.push(day.date);
+        previous.dayLabels.push(day.label);
+        previous.servings += profile.persons;
+        previous.lastDayIndex = dayIndex;
+        previous.ingredients = rows.map(i => ({ ...i, name: ingredientMap[i.id]?.name || i.id, grams: round(i.grams * previous.servings), gramsPerServing: i.grams }));
+      } else batches.push({
+        id: `batch-${dayIndex}-${category}`, recipeId, name: recipe.name, category,
+        days: [day.date], dayLabels: [day.label], servings: profile.persons, lastDayIndex: dayIndex, nutrition,
+        ingredients: rows.map(i => ({ ...i, name: ingredientMap[i.id]?.name || i.id, grams: round(i.grams * profile.persons), gramsPerServing: i.grams })),
+      });
+    }
+    day.nutrition = sumNutrition(values);
+  }
+  const basket = buildShopping({ requirements, ingredients: ingredientMap, offers, pantry, profile });
+  if (warnings.length) {
+    basket.complete = false; basket.budgetStatus = 'unresolved'; basket.overBudget = null; basket.remaining = null;
+  }
+  const oneStore = profile.maxStores === 1 ? basket : buildShopping({ requirements, ingredients: ingredientMap, offers, pantry, profile: { ...profile, maxStores: 1 } });
+  const twoStores = profile.maxStores === 2 ? basket : buildShopping({ requirements, ingredients: ingredientMap, offers, pantry, profile: { ...profile, maxStores: 2 } });
+  const savingsSecondStore = oneStore.complete && twoStores.complete ? round(Math.max(0, oneStore.total - twoStores.total)) : null;
+  const suggestions = [], shoppingAlternatives = [];
+  const money = value => value.toFixed(2).replace('.', ',');
+  if (!basket.complete) suggestions.push('Tilføj de manglende priser eller lagerbeholdninger, før budgettet kan vurderes.');
+  if (basket.overBudget > 0) {
+    const freeStores = profile.maxStores === 'free' ? basket : buildShopping({ requirements, ingredients: ingredientMap, offers, pantry, profile: { ...profile, maxStores: 'free' } });
+    const alternatives = [
+      ...(profile.maxStores === 1 ? [{ basket: twoStores, maxStores: 2, action: 'Tillad to butikker' }] : []),
+      ...(profile.maxStores !== 'free' ? [{ basket: freeStores, maxStores: 'free', action: 'Tillad frit butiksvalg' }] : []),
+    ];
+    let previousTotal = basket.total;
+    for (const option of alternatives) {
+      if (!option.basket.complete || option.basket.total >= previousTotal) continue;
+      const saving = round(basket.total - option.basket.total);
+      const deficit = Math.max(0, round(option.basket.total - profile.budget));
+      shoppingAlternatives.push({ maxStores: option.maxStores, total: option.basket.total, stores: option.basket.stores, saving, overBudget: deficit });
+      suggestions.push(`${option.action}: samme måltider og portioner koster ${money(option.basket.total)} kr. i ${option.basket.stores.length} butikker (${money(saving)} kr. mindre). ${deficit > 0 ? `Det er fortsat ${money(deficit)} kr. over budgettet.` : 'Det holder det valgte budget.'}`);
+      previousTotal = option.basket.total;
+    }
+    if (!shoppingAlternatives.length) suggestions.push('Ingen billigere, fuldt prissat mulighed er fundet med de kendte priser. Sammenlign nye tilbud eller tilføj dokumenterede priser på billigere varer; portionskravet bevares.');
+  }
+  return {
+    ...basket, days: normalized, batches, profile, warnings, savingsSecondStore,
+    oneStoreTotal: oneStore.complete ? oneStore.total : null,
+    twoStoreTotal: twoStores.complete ? twoStores.total : null,
+    suggestions, shoppingAlternatives, recipeSnapshot: recipes.filter(r => usedRecipes.has(r.id)),
+    ingredientSnapshot: Object.fromEntries([...usedIngredients].map(id => [id, ingredientMap[id] || { id, name: id }])),
+    generatedAt: new Date().toISOString(), algorithm: 'Lokal søgning blandt begrænsede kombinationer; billigste fundne, ikke garanti for globalt minimum.',
+  };
+}
+
+function weekDates(shoppingDate) {
+  const start = new Date(`${shoppingDate}T12:00:00Z`);
+  start.setUTCDate(start.getUTCDate() + (8 - start.getUTCDay()) % 7);
+  return Array.from({ length: 7 }, (_, index) => {
+    const date = new Date(start); date.setUTCDate(start.getUTCDate() + index);
+    return { date: date.toISOString().slice(0, 10), label: WEEKDAYS[date.getUTCDay()], index, meals: {} };
+  });
+}
+
+function schedule(pool, repeat, offset = 0, alternate = false) {
+  return Array.from({ length: 7 }, (_, i) => pool[(Math.floor(i / repeat) + offset + (alternate && i >= repeat * 2 ? 1 : 0)) % pool.length].id);
+}
+
+function planWeek({ profile: inputProfile = {}, recipes = [], ingredients = {}, offers = [], pantry = [], seed = 0 }) {
+  const profile = normalizeProfile(inputProfile);
+  const allowed = recipes.filter(r => r.diet !== 'fish' || profile.allowFish).filter(r => r.category !== 'dinner' || r.diet !== 'vegetarian' || profile.allowVegetarian);
+  const pool = allowed.filter(r => r.category === 'dinner' && (r.diet !== 'meat' || recipeIngredients(r, ingredients).some(i => isMeat(i.id, indexIngredients(ingredients)) && i.grams > 0)));
+  if (!pool.length) return { ...calculatePlan({ days: [], profile, recipes, ingredients, offers, pantry }), complete: false, budgetStatus: 'unresolved', remaining: null, overBudget: null, warnings: ['Ingen aftensmadsopskrifter opfylder dine valgte portionskrav.'], candidatesSearched: 0 };
+  const breakfast = allowed.filter(r => r.category === 'breakfast'), lunch = allowed.filter(r => r.category === 'lunch');
+  if (profile.mode === 'all' && (!breakfast.length || !lunch.length)) return { ...calculatePlan({ days: [], profile, recipes, ingredients, offers, pantry }), complete: false, budgetStatus: 'unresolved', remaining: null, overBudget: null, warnings: ['Der mangler opskrifter til morgenmad eller frokost.'], candidatesSearched: 0 };
+  // Single-serving estimates only rank the search. Final comparison always sums the
+  // whole week and subtracts pantry before pricing whole packs.
+  const ranked = pool.map(recipe => {
+    const basket = buildShopping({ requirements: recipeIngredients(recipe, ingredients), ingredients, offers, pantry: [], profile: { ...profile, maxStores: 'free' } });
+    return { recipe, basket };
+  }).sort((a, b) => a.basket.unresolved.length - b.basket.unresolved.length || a.basket.total - b.basket.total).map(r => r.recipe);
+  const sequences = new Map();
+  const add = seq => sequences.set(seq.join('|'), seq);
+  for (let offset = 0; offset < ranked.length; offset++) {
+    add(schedule(ranked, profile.maxRepeat, (offset + Number(seed || 0)) % ranked.length));
+    for (let second = offset + 1; second < ranked.length; second++) {
+      add(schedule([ranked[offset], ranked[second]], profile.maxRepeat));
+      add(schedule([ranked[second], ranked[offset]], profile.maxRepeat));
+    }
+  }
+  // A one-recipe plan is legal only when the configured consecutive-day limit permits it.
+  if (profile.maxRepeat >= 7) for (const recipe of ranked) add(Array(7).fill(recipe.id));
+  if (ranked.length === 1 && profile.maxRepeat < 7) return { ...calculatePlan({ days: [], profile, recipes, ingredients, offers, pantry }), complete: false, budgetStatus: 'unresolved', remaining: null, overBudget: null, warnings: ['Der skal være mindst to forskellige aftensmadsretter for at overholde dit valg af gentagelser.'], candidatesSearched: 0 };
+  let best, count = 0;
+  for (const sequence of sequences.values()) {
+    const days = weekDates(profile.date).map((day, i) => ({ ...day, meals: {
+      dinner: sequence[i],
+      ...(profile.mode === 'all' ? { breakfast: schedule(breakfast, profile.maxRepeat)[i], lunch: schedule(lunch, profile.maxRepeat)[i] } : {}),
+    } }));
+    const candidate = calculatePlan({ days, profile, recipes, ingredients, offers, pantry });
+    count++;
+    if (!best || betterBasket(candidate, best)) best = candidate;
+  }
+  return { ...best, candidatesSearched: count };
+}
+
+return {normalizeProfile,recipeIngredients,nutritionForRecipe,eligibleOffers,costForOffer,buildShopping,calculatePlan,planWeek};
+})();
+__modules["offers.js"]=(()=>{
+// Dated observations from real public pages, not demonstration prices.
+// No live/browser-compatible, no-login API was verified for these chains.
+const CHECKED_AT = '2026-11-02';
+const CHAINS = [
+  { id:'rema', name:'REMA 1000', url:'https://shop.rema1000.dk/', status:'manual', checkedAt:CHECKED_AT, note:'Ugens avisvarer er kontrolleret på REMAs offentlige webshop (1.–7. november). Daterede observationer medfølger. Automatisk opdatering og lokale butikstillæg er ikke verificeret; indtast nye priser manuelt.' },
+  { id:'netto', name:'Netto', url:'https://netto.dk/netto-avisen/', status:'manual', checkedAt:CHECKED_AT, note:'Officiel avis kontrolleret: 31. oktober–6. november. En præcis gulerodspris er kontrolleret hos eTilbudsavis. Netto+ kræver aktivt medlemsvalg. Automatisk lokal hentning er ikke tilgængelig.' },
+  { id:'superbrugsen', name:'SuperBrugsen', url:'https://superbrugsen.coop.dk/avis/', status:'manual', checkedAt:CHECKED_AT, note:'Officiel avisperiode kontrolleret: 30. oktober–5. november. Avisens produktdata blev ikke tilgængelige som verificerbar feed. Ingen priser importeret; indtast tilbud eller normalpriser manuelt.' },
+  { id:'meny', name:'MENY', url:'https://meny.dk/ugensavis', status:'manual', checkedAt:CHECKED_AT, note:'Den officielle avisreader er kontrolleret: uge 45, 30. oktober–5. november. Konkrete priser ses i avisen, men ingen lokal, automatisk produktfeed er verificeret. Indtast den konkrete variant og pakning manuelt.' },
+  { id:'365', name:'365discount', url:'https://365discount.coop.dk/365avis/', status:'manual', checkedAt:CHECKED_AT, note:'Officiel avis kontrolleret: 29. oktober–4. november. En præcis gulerodspris er kontrolleret hos eTilbudsavis. Automatisk lokal hentning er ikke tilgængelig; nye priser indtastes manuelt.' },
+];
+
+const observed = (id,ingredientId,name,store,packageGrams,price,validFrom,validTo,source) => ({
+  id,ingredientId,name,store,packageGrams,price,pricePerKg:price/packageGrams*1000,
+  multiBuy:null,memberOnly:false,validFrom,validTo,source,postalCode:null,
+  type:'offer',verifiedAt:CHECKED_AT,origin:'verified-snapshot',
+  note:'Dateret observation af kædens landsavis/offentlige side. Lokal lagerstatus og eventuelle butiksspecifikke undtagelser er ikke verificeret. Kontroller i din butik.'
+});
+
+// Only exact gram sizes and ingredients compatible with the nutritional catalogue.
+// Pork mince 8–12% and beef mince 15–18% were observed but deliberately not mapped
+// to tenderloin/5%-fat beef. Mixed variants and variable-weight products are omitted.
+const VERIFIED_OFFERS = [
+  observed('verified-20261102-rema-potato','potato','Skrællekartofler, danske, 2 kg','rema',2000,12,'2026-11-01','2026-11-07','https://shop.rema1000.dk/'),
+  observed('verified-20261102-netto-carrot','carrot','ØGO økologiske danske gulerødder, 800 g','netto',800,15,'2026-10-31','2026-11-06','https://etilbudsavis.dk/soeg/guler%C3%B8dder'),
+  observed('verified-20261102-365-carrot','carrot','Danske gulerødder fra Lammefjordspakkeriet, 1,5 kg','365',1500,12,'2026-10-29','2026-11-04','https://etilbudsavis.dk/soeg/guler%C3%B8dder'),
+];
+
+/** Honest runtime fallback: this function does NOT claim to refresh dated prices.
+ * Chain pages cannot be scraped from an iPhone PWA without demonstrated CORS or
+ * an intermediary. No paid API, authentication or unverified proxy is used.
+ */
+async function fetchOffers({postalCode='',date=''} = {}) {
+  return { offers:[], statuses:CHAINS.map(chain=>({
+    ...chain,status:'manual',requestedDate:date,requestedPostalCode:postalCode,
+    note:`${chain.note} Ingen nye priser hentet. Sidste kildeundersøgelse: ${CHECKED_AT}. Gemte observationer anvendes kun inden for deres gyldighedsperiode. Postnummer ${postalCode||'ikke valgt'} er ikke automatisk verificeret.`
+  })) };
+}
+
+return {CHECKED_AT,CHAINS,VERIFIED_OFFERS,fetchOffers};
+})();
+__modules["storage.js"]=(()=>{
+// Data stays in this browser's origin. No analytics, remote storage or login.
+const { INGREDIENTS }=__modules["data.js"];
+const STORAGE_KEY = 'sondagsro.state.v1';
+const MAX_BYTES = 10 * 1024 * 1024;
+const isRecord = value => value !== null && typeof value === 'object' && !Array.isArray(value);
+const finite = value => typeof value === 'number' && Number.isFinite(value);
+const nonnegative = value => finite(value) && value >= 0;
+const positive = value => finite(value) && value > 0;
+const text = value => typeof value === 'string' && value.trim().length > 0;
+const categories = ['breakfast', 'lunch', 'dinner'];
+const isDate = value => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value) && !Number.isNaN(Date.parse(value)) && new Date(value).toISOString().slice(0,10) === value;
+const hasOwn = (object, key) => Object.prototype.hasOwnProperty.call(object, key);
+const almostEqual = (a, b) => Math.abs(a - b) < 0.011;
+
+function validSource(source) {
+  if (text(source)) return true; // E.g. a dated receipt entered by the owner.
+  return isRecord(source) && text(source.name) && text(source.url) && /^https?:\/\//.test(source.url);
+}
+
+function validateProfile(profile, complete = false) {
+  if (!isRecord(profile)) throw new Error('Profilen i sikkerhedskopien er ugyldig.');
+  if ((complete || hasOwn(profile, 'persons')) && ![1, 2].includes(profile.persons)) throw new Error('Antal personer skal være 1 eller 2.');
+  if ((complete || hasOwn(profile, 'budget')) && !nonnegative(profile.budget)) throw new Error('Budgettet i sikkerhedskopien er ugyldigt.');
+  if ((complete || hasOwn(profile, 'date')) && !isDate(profile.date)) throw new Error('Indkøbsdatoen i sikkerhedskopien er ugyldig.');
+  if ((complete || hasOwn(profile, 'mode')) && !['dinner','all'].includes(profile.mode)) throw new Error('Valget af måltider i sikkerhedskopien er ugyldigt.');
+  if (profile.members !== undefined && (!Array.isArray(profile.members) || !profile.members.every(text))) throw new Error('Medlemskaberne i sikkerhedskopien er ugyldige.');
+  if (profile.maxRepeat !== undefined && (!Number.isInteger(profile.maxRepeat) || profile.maxRepeat < 1 || profile.maxRepeat > 7)) throw new Error('Gentagelserne i sikkerhedskopien er ugyldige.');
+  if (profile.maxStores !== undefined && ![1,2,'free'].includes(profile.maxStores)) throw new Error('Butiksvalget i sikkerhedskopien er ugyldigt.');
+  if (profile.targets !== undefined && (!Array.isArray(profile.targets) || profile.targets.length > 2 || !profile.targets.every(t => isRecord(t) && ['kcal','protein','carbs','fat'].every(k => t[k] == null || nonnegative(t[k]))))) throw new Error('Dagsmålene i sikkerhedskopien er ugyldige.');
+}
+
+function validateOffer(offer) {
+  const hasBundle = isRecord(offer?.multiBuy) && Number.isInteger(offer.multiBuy.count) && offer.multiBuy.count >= 2 && nonnegative(offer.multiBuy.price);
+  if (!isRecord(offer) || !text(offer.id) || !text(offer.ingredientId) || !text(offer.store) || !text(offer.name) ||
+    !(nonnegative(offer.price) || offer.price === null && hasBundle) || !positive(offer.packageGrams)) {
+    throw new Error('Et tilbud i sikkerhedskopien har en ugyldig pris eller pakningsstørrelse.');
+  }
+  if (offer.multiBuy != null && !hasBundle) throw new Error('Et flerstykstilbud i sikkerhedskopien er ugyldigt.');
+  if (!validSource(offer.source)) throw new Error('Et tilbud i sikkerhedskopien mangler en gyldig kilde.');
+  if (offer.type !== undefined && !['offer','regular'].includes(offer.type)) throw new Error('Et tilbud i sikkerhedskopien har en ugyldig pristype.');
+  if (offer.type !== 'regular' && (!isDate(offer.validFrom) || !isDate(offer.validTo))) throw new Error('Et tilbud i sikkerhedskopien mangler gyldige datoer.');
+  if (offer.validFrom != null && !isDate(offer.validFrom) || offer.validTo != null && !isDate(offer.validTo) || offer.validFrom && offer.validTo && offer.validFrom > offer.validTo) throw new Error('Et tilbud i sikkerhedskopien har ugyldige datoer.');
+  if (offer.memberOnly !== undefined && typeof offer.memberOnly !== 'boolean') throw new Error('Medlemsprisen i sikkerhedskopien er ugyldig.');
+}
+
+function validateRecipe(recipe, ingredients) {
+  if (!isRecord(recipe) || !text(recipe.id) || !text(recipe.name) || !categories.includes(recipe.category) || !['meat','fish','vegetarian'].includes(recipe.diet) ||
+    !positive(recipe.minutes) || !Array.isArray(recipe.ingredients) || !recipe.ingredients.length || !Array.isArray(recipe.steps) || !recipe.steps.length || !recipe.steps.every(text)) {
+    throw new Error('En opskrift i sikkerhedskopien er ugyldig.');
+  }
+  for (const item of recipe.ingredients) if (!isRecord(item) || !text(item.id) || !positive(item.grams) || !hasOwn(ingredients, item.id)) throw new Error('En opskrifts ingrediens eller mængde er ugyldig.');
+  const hasMeat = recipe.ingredients.some(i => ingredients[i.id].isMeat || ingredients[i.id].category === 'meat' || ['chicken','turkey','beef','pork'].includes(i.id));
+  const hasFish = recipe.ingredients.some(i => ingredients[i.id].category === 'fish' || i.id === 'salmon');
+  if (recipe.category === 'dinner' && recipe.diet === 'meat' && !hasMeat || recipe.diet === 'vegetarian' && (hasMeat || hasFish) || recipe.diet === 'fish' && !hasFish) throw new Error('Opskriftens proteinkilde passer ikke til dens ingredienser.');
+}
+
+function validateNutrition(nutrition) {
+  if (!isRecord(nutrition) || !['kcal','protein','carbs','fat'].every(key => nonnegative(nutrition[key])) || typeof nutrition.complete !== 'boolean') throw new Error('Ugeplanens næringsberegning er ugyldig.');
+}
+
+function validatePlan(plan) {
+  if (!isRecord(plan) || !isRecord(plan.ingredientSnapshot)) throw new Error('Den gemte ugeplan mangler ingrediensdata.');
+  validateProfile(plan.profile, true);
+  for (const key of ['days','batches','shopping','unresolved','leftovers','stores','ingredientsRequired','warnings','suggestions','recipeSnapshot']) {
+    if (!Array.isArray(plan[key])) throw new Error(`Den gemte ugeplan mangler en gyldig liste: ${key}.`);
+  }
+  if (!plan.stores.every(text) || !plan.warnings.every(text) || !plan.suggestions.every(text)) throw new Error('Ugeplanens butiksnavne eller beskeder er ugyldige.');
+  for (const ingredient of Object.values(plan.ingredientSnapshot)) {
+    if (!isRecord(ingredient) || !text(ingredient.name)) throw new Error('Ugeplanens ingrediensdata er ugyldige.');
+    for (const key of ['kcal','protein','carbs','fat']) if (ingredient[key] !== undefined && !nonnegative(ingredient[key])) throw new Error('En ingrediens har ugyldige næringsværdier.');
+    if (ingredient.source !== undefined && !validSource(ingredient.source)) throw new Error('En ingrediens mangler en gyldig næringskilde.');
+  }
+  const ingredientMap = {...INGREDIENTS,...plan.ingredientSnapshot};
+  for (const recipe of plan.recipeSnapshot) validateRecipe(recipe, ingredientMap);
+  const recipes = new Map(plan.recipeSnapshot.map(recipe => [recipe.id, recipe]));
+  for (const day of plan.days) {
+    if (!isRecord(day) || !isDate(day.date) || !text(day.label) || !isRecord(day.meals)) throw new Error('En dag i ugeplanen er ugyldig.');
+    if (!text(day.meals.dinner)) throw new Error('En dag i ugeplanen mangler aftensmad.');
+    for (const [category,id] of Object.entries(day.meals)) if (!categories.includes(category) || !recipes.has(id) || recipes.get(id).category !== category) throw new Error('En dag henviser til en manglende eller forkert opskrift.');
+    validateNutrition(day.nutrition);
+  }
+  for (const batch of plan.batches) {
+    if (!isRecord(batch) || !text(batch.id) || !text(batch.name) || !recipes.has(batch.recipeId) || batch.category !== recipes.get(batch.recipeId).category || !Number.isInteger(batch.servings) || batch.servings < 1 ||
+      !Array.isArray(batch.days) || !batch.days.length || !batch.days.every(isDate) || !Array.isArray(batch.dayLabels) || !batch.dayLabels.every(text) || !Array.isArray(batch.ingredients)) throw new Error('En tilberedning i ugeplanen er ugyldig.');
+    for (const item of batch.ingredients) if (!isRecord(item) || !text(item.id) || !text(item.name) || !positive(item.grams) || !positive(item.gramsPerServing)) throw new Error('En madkasses ingrediensmængder er ugyldige.');
+    validateNutrition(batch.nutrition);
+  }
+  const validateRequirement = row => {
+    if (!isRecord(row) || !text(row.id) || !text(row.ingredientId) || !text(row.name) || !['requiredGrams','pantryGrams','neededGrams'].every(key => nonnegative(row[key]))) throw new Error('En indkøbsmængde i ugeplanen er ugyldig.');
+  };
+  for (const row of [...plan.ingredientsRequired,...plan.unresolved]) validateRequirement(row);
+  for (const row of plan.shopping) {
+    validateRequirement(row);
+    if (!text(row.store) || !Number.isInteger(row.packages) || row.packages < 1 || !positive(row.packageGrams) || !positive(row.purchasedGrams) || !nonnegative(row.total) || !nonnegative(row.leftoverGrams) ||
+      !almostEqual(row.purchasedGrams, row.packages * row.packageGrams) || !almostEqual(row.leftoverGrams, row.purchasedGrams - row.neededGrams)) throw new Error('En pakke eller pris i ugeplanen er ugyldig.');
+    validateOffer(row.offer);
+  }
+  for (const row of plan.leftovers) if (!isRecord(row) || !text(row.name) || !positive(row.grams)) throw new Error('En restmængde i ugeplanen er ugyldig.');
+  if (!nonnegative(plan.total) || !nonnegative(plan.knownTotal) || !almostEqual(plan.total, plan.knownTotal) || !almostEqual(plan.total, plan.shopping.reduce((sum,row) => sum + row.total,0)) || typeof plan.complete !== 'boolean') throw new Error('Ugeplanens samlede pris er ugyldig.');
+  if (plan.complete) {
+    const within = plan.total <= plan.profile.budget;
+    if (plan.unresolved.length || plan.warnings.length || !plan.days.length || plan.budgetStatus !== (within?'within':'over') || !finite(plan.remaining) || !almostEqual(plan.remaining, plan.profile.budget - plan.total) || !nonnegative(plan.overBudget) || !almostEqual(plan.overBudget, Math.max(0,plan.total-plan.profile.budget))) throw new Error('Ugeplanens budgetstatus stemmer ikke med priserne.');
+  } else if (plan.budgetStatus !== 'unresolved' || plan.remaining !== null || plan.overBudget !== null) throw new Error('En uafklaret plan må ikke vises som under budget.');
+  for (const key of ['savingsSecondStore','oneStoreTotal','twoStoreTotal']) if (plan[key] !== null && !nonnegative(plan[key])) throw new Error('Ugeplanens butikssammenligning er ugyldig.');
+}
+
+function assertSafeJSON(value, depth = 0, count = {value: 0}) {
+  if (++count.value > 250000 || depth > 50) throw new Error('Sikkerhedskopien er for stor eller har for mange indlejrede felter.');
+  if (typeof value === 'number' && !Number.isFinite(value)) throw new Error('Sikkerhedskopien indeholder et ugyldigt tal.');
+  if (value === null || typeof value !== 'object') return;
+  if (!Array.isArray(value) && Object.getPrototypeOf(value) !== Object.prototype && Object.getPrototypeOf(value) !== null) {
+    throw new Error('Sikkerhedskopien har et ugyldigt dataformat.');
+  }
+  for (const [key, child] of Object.entries(value)) {
+    if (['__proto__', 'prototype', 'constructor'].includes(key)) throw new Error('Sikkerhedskopien indeholder et ugyldigt feltnavn.');
+    assertSafeJSON(child, depth + 1, count);
+  }
+}
+
+function validateBackup(data) {
+  let state;
+  try {
+    if (typeof data === 'string') {
+      if (new Blob([data]).size > MAX_BYTES) throw new Error('too-large');
+      state = JSON.parse(data);
+    } else state = data;
+  } catch (error) {
+    if (error.message === 'too-large') throw new Error('Sikkerhedskopien må højst fylde 10 MB.');
+    throw new Error('Filen er ikke en gyldig JSON-sikkerhedskopi.');
+  }
+  if (!isRecord(state) || state.version !== 1 || !isRecord(state.profile)) {
+    throw new Error('Filen er ikke en understøttet Søndagsro-sikkerhedskopi (version 1).');
+  }
+  assertSafeJSON(state);
+  for (const key of ['pantry', 'offers', 'customRecipes', 'history']) {
+    if (!Array.isArray(state[key])) throw new Error(`Sikkerhedskopien mangler en gyldig liste: ${key}.`);
+  }
+  if (state.statuses !== undefined && !Array.isArray(state.statuses)) throw new Error('Sikkerhedskopiens butiksstatus er ugyldig.');
+  if (state.checked !== undefined && (!isRecord(state.checked) || !Object.values(state.checked).every(value => typeof value === 'boolean'))) throw new Error('Sikkerhedskopiens afkrydsninger er ugyldige.');
+  validateProfile(state.profile);
+  for (const item of state.pantry) {
+    if (!isRecord(item) || typeof item.id !== 'string' || !finite(item.grams) || item.grams < 0) throw new Error('En lagerbeholdning i sikkerhedskopien er ugyldig.');
+  }
+  for (const offer of state.offers) validateOffer(offer);
+  for (const recipe of state.customRecipes) validateRecipe(recipe, INGREDIENTS);
+  if (state.plan != null) validatePlan(state.plan);
+  for (const plan of state.history) validatePlan(plan);
+  return state;
+}
+
+function loadState() {
+  let raw;
+  try { raw = globalThis.localStorage.getItem(STORAGE_KEY); }
+  catch { throw new Error('Telefonens lokale lager kan ikke åbnes. Åbn appen i almindelig Safari, og tillad webstedsdata.'); }
+  if (raw === null) return null;
+  try { return validateBackup(raw); }
+  catch (error) { throw new Error(`De gemte data kunne ikke læses: ${error.message} Data er ikke blevet slettet.`); }
+}
+
+function saveState(state) {
+  let raw;
+  try { raw = JSON.stringify(validateBackup(state)); }
+  catch (error) { throw new Error(`Data kunne ikke gemmes: ${error.message}`); }
+  if (new Blob([raw]).size > MAX_BYTES) throw new Error('De lokale data fylder over 10 MB. Eksportér en sikkerhedskopi og fjern ældre ugeplaner.');
+  try { globalThis.localStorage.setItem(STORAGE_KEY, raw); }
+  catch { throw new Error('Data kunne ikke gemmes på telefonen. Lageret kan være fuldt eller blokeret. Eksportér en sikkerhedskopi, før du lukker appen.'); }
+  return state;
+}
+
+function exportState(state) {
+  validateBackup(state);
+  const filename = `sondagsro-sikkerhedskopi-${new Date().toISOString().slice(0, 10)}.json`;
+  const blob = new Blob([JSON.stringify(state, null, 2)], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement('a');
+  link.href = url; link.download = filename;
+  document.body.append(link); link.click(); link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 30000);
+  return filename;
+}
+
+async function importBackup(file) {
+  if (!file || typeof file.text !== 'function') throw new Error('Vælg en JSON-sikkerhedskopi fra appen.');
+  if (file.size > MAX_BYTES) throw new Error('Sikkerhedskopien må højst fylde 10 MB.');
+  let raw;
+  try { raw = await file.text(); }
+  catch { throw new Error('Filen kunne ikke læses. Prøv at hente den til Filer på din iPhone først.'); }
+  return validateBackup(raw);
+}
+
+return {STORAGE_KEY,validateBackup,loadState,saveState,exportState,importBackup};
+})();
+__modules["visuals.js"]=(()=>{
+const paths={
+ sprout:'M12 22v-9M12 16C5 17 2 12 3 6c6-1 10 3 9 10Zm0-4C11 6 15 2 21 3c1 6-3 10-9 9Z',
+ calendar:'M8 2v4m8-4v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm3 10h2m4 0h2m-8 4h2m4 0h2',
+ basket:'m5 9 4-6m10 6-4-6M3 9h18l-2 11H5L3 9Zm5 4 1 4m7-4-1 4',
+ chef:'M6 13a5 5 0 1 1 2-9 5 5 0 0 1 8 0 5 5 0 1 1 2 9v8H6v-8Zm0 4h12',
+ kitchen:'M4 3h16v18H4V3Zm0 6h16M8 6h2m-2 8h2',
+ tag:'M3 3h8l10 10-8 8L3 11V3Zm4 4h.01',
+ settings:'M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2-5h4l1 3 3-1 2 3-2 3 2 3-2 3-3-1-1 3h-4l-1-3-3 1-2-3 2-3-2-3 2-3 3 1 1-3Z',
+ shield:'M12 3 3 6v6c0 5 9 10 9 10s9-5 9-10V6l-9-3Zm-4 9 3 3 5-6',
+ arrow:'M4 12h16m-6-6 6 6-6 6',
+ chevron:'m9 5 7 7-7 7',
+ down:'m6 9 6 6 6-6',
+ refresh:'M20 8a8 8 0 0 0-14-3L3 8m0-5v5h5m-4 8a8 8 0 0 0 14 3l3-3m0 5v-5h-5',
+ users:'M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2m20 0v-2a4 4 0 0 0-3-4M13 3a4 4 0 0 1 0 8M9 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z',
+ clock:'M12 8v5l3 2m-3-13a10 10 0 1 0 0 20 10 10 0 0 0 0-20Z',
+ store:'M3 10V5h18v5m-18 0c0 3 5 3 5 0 0 3 8 3 8 0 0 3 5 3 5 0M4 13v8h16v-8M9 21v-6h6v6',
+ wallet:'M3 6h17v15H3V4l14-2v4m3 6h-6v5h6m-3-2h.01',
+ leaf:'M20 3C6 1 0 9 6 16s17 2 14-13ZM4 21l11-11',
+ info:'M12 11v6m0-10h.01m0-5a10 10 0 1 0 0 20 10 10 0 0 0 0-20Z',
+ check:'m4 12 5 5L20 6',
+ plus:'M12 4v16M4 12h16',
+ close:'m6 6 12 12M6 18 18 6',
+ trash:'M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7',
+ download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',
+ upload:'M12 15V3m-5 5 5-5 5 5M4 16v5h16v-5',
+ book:'M12 5c-4-3-7-3-10-2v16c3-1 6-1 10 2 4-3 7-3 10-2V3c-3-1-6-1-10 2Zm0 0v16',
+ snow:'M12 2v20M3 7l18 10M3 17 21 7M8 4l4 3 4-3M8 20l4-3 4 3M3 11l5 1-1 5m14-6-5 1 1 5',
+ flame:'M12 2c2 6-2 7 2 11 2-2 3-4 3-6 7 8 4 15-5 15S0 13 7 8c-1 4 1 5 2 6 2-4 3-7 3-12Z',
+ pin:'M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Zm-8-3a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z',
+ edit:'m15 4 5 5M3 21l6-1L22 7l-5-5L4 15l-1 6Z',
+ history:'M3 12a9 9 0 1 0 3-7L3 8m0-5v5h5m4-1v6l4 2',
+ box:'m3 6 9-4 9 4v13l-9 4-9-4V6Zm0 0 9 4 9-4m-9 4v13'
+};
+const icon=(name,cls='')=>`<svg class="icon ${cls}" aria-hidden="true" viewBox="0 0 24 24"><path d="${paths[name]||paths.leaf}"/></svg>`;
+function foodArt(recipe,index=0){
+ const n=[...String(recipe.id)].reduce((a,c)=>a+c.charCodeAt(0),index), warm=recipe.diet==='meat', colors=['#d9ddd0','#eadfcd','#d9e2d7','#eadacb'], bg=colors[n%colors.length];
+ let rice='',veg='',meat='';
+ for(let i=0;i<76;i++){const x=93+(i*17%92),y=34+(i*23%105);rice+=`<ellipse cx="${x}" cy="${y}" rx="3.8" ry="1.45" fill="${i%3?'#eee4c6':'#d1c4a2'}" transform="rotate(${i*31} ${x} ${y})"/>`;}
+ for(let i=0;i<21;i++){const x=167+(i*19%69),y=53+(i*31%91);veg+=`<g transform="translate(${x},${y}) rotate(${i*23})"><path d="M-6 4 0 13 5 3" fill="#718a42"/><circle cx="-4" cy="-1" r="7" fill="${i%2?'#547a37':'#699448'}"/><circle cx="4" cy="-3" r="7" fill="#76964b"/><circle cy="-6" r="6" fill="#658b40"/></g>`;}
+ for(let i=0;i<8;i++){const x=105+(i*19%66),y=105+(i*7%34);meat+=`<g transform="translate(${x},${y}) rotate(${-25+i*7})"><rect x="-12" y="-7" width="27" height="14" rx="5" fill="${warm?'#bf8b56':'#ca967c'}"/><path d="M-7-5v10M0-6v12m7-11v10" stroke="${warm?'#8e663c':'#aa6c53'}" stroke-width="1.5" opacity=".6"/></g>`;}
+ return `<div class="food-visual" role="img" aria-label="Illustration af en portionsanrettet ret"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 190" preserveAspectRatio="xMidYMid slice"><defs><filter id="shadow${n}"><feGaussianBlur stdDeviation="4"/></filter></defs><rect width="320" height="190" fill="${bg}"/><path d="M0 35h320M0 120h320" stroke="#ffffff" opacity=".12"/><path d="m277 0-20 190h63V0Z" fill="#fff" opacity=".2"/><ellipse cx="164" cy="106" rx="96" ry="80" fill="#4a5033" opacity=".14" filter="url(#shadow${n})"/><circle cx="160" cy="94" r="85" fill="#fbfaf3"/><circle cx="160" cy="94" r="74" fill="#efeee3"/><circle cx="160" cy="94" r="71" fill="#f7f4e9"/>${rice}${veg}${meat}<path d="m119 69 6-8 5 9-6 5m24 21 5-9 5 7-5 5m-8 32 5-8 4 6-5 6" fill="#78964a"/><path d="m267 41-10 112m-7-113-3 23q4 10 13 1l3-23m-9 1-3 25" fill="none" stroke="#9b9e8b" stroke-width="3.5" stroke-linecap="round"/><ellipse cx="53" cy="150" rx="19" ry="9" transform="rotate(-25 53 150)" fill="#adbc8c" opacity=".6"/><path d="m31 171 32-36" stroke="#80915e" stroke-width="2"/></svg></div>`;
+}
+
+return {icon,foodArt};
+})();
+__modules["app.js"]=(()=>{
+const __docs={"INSTALLATION":"# Upload de fire filer fra iPhone\n\nDenne udgave er allerede bygget. Du behøver hverken Node.js eller en computer.\n\n1. Pak ZIP-filen ud i Filer på iPhone.\n2. Åbn dit GitHub-repository i Safari, og vælg Add file > Upload files.\n3. Vælg choose your files > Gennemse, og vælg de fire udpakkede filer. Upload index.html, sw.js, manifest.webmanifest og apple-touch-icon.png direkte i roden.\n4. Gem med Commit changes.\n5. Under Settings > Pages vælges Deploy from a branch, main og / (root). Gem og vent på webadressen.\n6. Åbn webadressen i Safari, og vælg Del > Føj til hjemmeskærm.\n\nEn ZIP-fil, som blot uploades til GitHub, bliver ikke pakket ud af GitHub. Upload de fire løse filer.\n\n## 2. Føj til hjemmeskærmen\n\n1. Åbn appens HTTPS-adresse i **Safari** på iPhone.\n2. Lad siden indlæse færdig med internetforbindelse, så appfilerne kan gemmes offline.\n3. Tryk **Del** og derefter **Føj til hjemmeskærm**. På nyere iOS kan **Åbn som webapp** være en kontakt, der skal være slået til.\n4. Åbn **Søndagsro** fra hjemmeskærmen. Lav og gem din første ugeplan her.\n5. Kontrollér offlineadgangen: Luk appen, slå flytilstand til, og åbn den igen. Den gemte ugeplan, opskrifterne og indkøbslisten skal kunne åbnes. Nye tilbud og eksterne kildesider kræver internet.\n\nWebapps installeret på hjemmeskærmen kan have andet lokalt lager end en Safari-fane. Eksportér og importér en sikkerhedskopi, hvis data ikke følger med fra fanen.\n\n## Lokal afprøvning på computer\n\nKør `npm run build` og `npm start`, og åbn `http://localhost:4173` på computeren. `localhost` er en særlig sikker kontekst på computeren. `http://COMPUTERENS-IP:4173` på iPhone giver almindeligvis **ikke** adgang til service workers og opfylder derfor ikke kravet til installation med offlineadgang. En HTTPS-hostingadresse er den enkleste iPhone-løsning.\n\n## Opdatering, flytning og sikkerhedskopi\n\n- Brug appens **Eksportér sikkerhedskopi**, og gem JSON-filen i Filer eller et andet sted, du selv vælger. Brug **Importér sikkerhedskopi** for at flytte data til en ny enhed eller gendanne dem.\n- Opdater filer på **samme HTTPS-adresse** for at bevare adgang til det lokale lager. Luk alle vinduer med appen, og åbn den igen, så en ventende service worker kan aktiveres. Ved en kodeopdatering skal udvikleren også ændre service workerens cacheversionsnavn i `sw.js`.\n- Skifter du domæne, repositorynavn eller browser, følger lokale data ikke automatisk med. Eksportér først, og importér på den nye adresse.\n- Sletter du hjemmeskærmsappen eller Safari-webstedsdata, nulstiller telefonen eller løber tør for lager, kan lokale data gå tabt. En PWA kan ikke garantere permanent lagring mod iOS-oprydning. Gem jævnligt en sikkerhedskopi.\n- Du behøver normalt ikke geninstallere efter en opdatering. Slet kun appen efter at have sikret dine data. Hosting skal fortsat eksistere for geninstallation, opdateringer og den første indlæsning på en ny enhed; allerede gemte appfiler og planer kan bruges offline.\n\nDer er ingen løbende AI-udgift. Gratis hosting afhænger af hostingudbyderens gældende vilkår. iPhone-installation og offlineåbning skal kontrolleres på en fysisk iPhone; en test i projektets Linux-miljø kan ikke erstatte denne kontrol.\n","NUTRITION":"# Næringsgrundlag og opskrifter\n\nAppens indbyggede bibliotek indeholder 21 fødevarereferencer og 13 konkrete opskrifter: syv kødbaserede aftensmåltider, et fisketilvalg, et vegetarisk tilvalg, to morgenmåltider og to frokoster. Hvert kødbaseret aftensmåltid indeholder præcis 200 g råt, spiseligt kød pr. person. Opskrifterne er udarbejdet til appen med konkrete tilberedningstrin; de er ikke prøvetilberedt og må ikke markedsføres som køkkentestede.\n\n## Kilder\n\nAlle referenceværdier findes i `src/data.js` sammen med kilde, fødevare-ID, vægtgrundlag og kontroltidspunkt. Mængder angives i gram og næringsværdier pr. 100 g. Kilderne er:\n\n- [USDA FoodData Central](https://fdc.nal.usda.gov/): SR Legacy-poster med specifikke FDC-ID'er. Kylling 171077, kalkun 172850, oksekød 171790, svinemørbrad 168249, laks 175167, ris 169756, pasta 169736, kartofler 170026, broccoli 170379, gulerødder 170393, løg 170000, rød peber 170108, hvidkål 169975, knuste tomater 170501, drænede kidneybønner 174285, olivenolie 171413, tørre havregryn 173904, æble 171688 og æg 171287.\n- [Arla Pro Skyr Naturel 0,2 %, produkt 26707](https://www.arlapro.com/da/produkter/skyr-naturel-02pct-5kg-26707/): deklaration 61 kcal, 10 g protein, 4 g kulhydrat og 0,2 g fedt pr. 100 g. Verificeret ved faktisk opslag 2. november 2026.\n- [Schulstad Det Gode Solsikkerugbrød, produkt 19291, 950 g](https://www.schulstad.dk/alle-produkter/det-gode-solsikkerugbrod-950-g/): deklaration 242 kcal, 6,6 g protein, 33 g kulhydrat og 7,3 g fedt pr. 100 g. Verificeret ved faktisk opslag 2. november 2026. Brødet er klar til brug.\n\nSom primær tabelreference blev [USDA Standard Reference 28, korn og pasta](https://www.ars.usda.gov/ARSUserFiles/80400535/Data/SR/SR28/reports/sr28fg20.pdf) åbnet med faktisk opslag. Flere USDA-poster blev krydstjekket via indekserede gengivelser. USDA's nuværende FoodData Central-grænseflade er klientrenderet og kunne ikke udlæses komplet i researchværktøjet. De indbyggede tal er derfor et fast referenceudsnit med kildehenvisninger, ikke en påstand om en ny, fuld automatisk USDA-hentning. Fridas enkeltposter viderestillede ved opslag til den klientrenderede fcdb.fooddata.dk-grænseflade uden udlæselige næringstabeller. Appen hævder ikke, at Frida er hentet automatisk.\n\n## Beregning og begrænsninger\n\nHver ingrediens bidrager med `gram / 100 × referenceværdi`. Alle bidrag lægges sammen før afrunding til visning. Olie, skyrdressing og tomatsauce er konkrete ingredienser og indgår i næringen. Opskrifterne indeholder ingen skjult stegefedt, mayonnaise eller sauce. Vand til kogning bidrager ikke til kcal eller makroer.\n\nRis, pasta og havregryn vejes tørre. Kød og fisk vejes råt uden ben, skind eller afpuds. Bønner vejes efter dræning, og prispakkens gram skal tilsvarende være drænet spiselig mængde. Æg vejes uden skal. Væske i tomatkonserves medregnes. Olie vejes i gram, ikke milliliter. De færdige retter fordeles ligeligt efter tilberedning; den færdige portions vægt kan ikke udledes præcist af de rå gram, fordi vand optages eller fordamper.\n\nKulhydratvisningen er ensrettet til at udelade kostfibre, så brugerens danske daglige kulhydratmål ikke sammenlignes med en blanding af EU- og USDA-totaler. USDA's \"carbohydrate by difference\" gemmes uændret som `carbsTotal`; dokumenterede kostfibre gemmes som `fiber`. Appens `carbs` er `carbsTotal - fiber`. Dette er et estimat for tilgængeligt kulhydrat, ikke en påstand om en analytisk bestemt EU-varedeklaration. Energi, protein og fedt bevares som opgivet i kilden. Arla og Schulstad deklarerer allerede kulhydrat uden kostfibre; deres kulhydrat ændres ikke. Metoden står i `carbohydrateBasis` og i appens næringsnote.\n\nDe anvendte USDA-kostfibre pr. 100 g er: ris 1,3 g, pasta 3,2 g, kartofler 2,1 g, broccoli 2,6 g, gulerødder 2,8 g, løg 1,7 g, rød peber 2,1 g, hvidkål 2,5 g, knuste tomater 1,9 g, drænede kidneybønner 5,5 g, havregryn 10,1 g og æble 2,4 g. Kød, fisk, olie og æg har 0 g i de valgte poster. De angivne fiberdata blev krydstjekket i de tilsvarende indekserede FDC-gengivelser. Eksempelvis [ris FDC 169756](https://nutri-db.com/en/foods/169756), [havre FDC 173904](https://nutri-db.com/en/foods/173904), [bønner FDC 174285](https://www.datayoureat.com/r/_-UXXgrGKu8b/Kidney_beans_canned_drained?l10n=NONE) og [tomat FDC 170501](https://datanutri.com/foods/170501/tomatoes-crushed-canned). Fiber for Schulstad-brødet er 9,3 g efter producentens deklaration. Ingen ukendt fiberværdi erstattes stiltiende med nul: USDA-konstruktøren kræver et eksplicit dokumenteret fiberfelt.\n\nNæring er generiske referenceestimater, ikke en laboratoriemåling af den købte vare; andre udskæringer, fedtprocenter og mærker kan afvige. Skyrreferencen bruges kun som næringsgrundlag og siger intet om pris eller tilgængelighed i de valgte kæder.\n\nDer medfølger ingen universelle vægttabsmål. Brugeren vælger selv sine daglige mål, og et aftensmåltid er kun aftensmåltidets bidrag til disse mål.\n\n## Praktisk opbevaring\n\nKøkkenplanen skal følge opskrifternes opbevaringstekst: hurtig nedkøling i lave beholdere, højst 5 °C i køleskab, højst to dages køleskabsportioner, straksfrysning af senere portioner, optøning i køleskab og grundig genopvarmning. Kolde skyrskåle, salater og kogte æg tilberedes igen senere på ugen og planlægges ikke som en uges færdig køleskabsmad.\n","SOURCES":"# Tilbudskilder – faktiske opslag 2. november 2026\n\nDer er ingen demonstrationspriser i appens startdata. `src/offers.js` indeholder **tre daterede prisobservationer**, ikke en løbende opdateret prissammenligning. Deres originale gyldighedsdatoer bevares; planmotoren fravælger udløbne priser. Ingen postnummerbestemt tilgængelighed eller lagerstatus er bekræftet.\n\nOpslagene nedenfor blev foretaget med webværktøjets faktiske `open`/`click`. Shellens HTTP-proxy var utilgængelig, og en forespørgsel til REMAs produkt-API gav ikke en læsbar respons i webværktøjet. Derfor er hverken feedkontrakt eller CORS i Safari verificeret. Appen påstår ikke automatisk hentning; knappen viser den kendte kildestatus og vejleder til manuel indtastning.\n\n| Kæde | Offentlig primærkilde og faktisk resultat | Produkter / begrænsning |\n|---|---|---|\n| REMA 1000 | [Offentlig webshop](https://shop.rema1000.dk/) blev læst med aktuelle avisvarer og perioden **1.–7. november 2026**. Kædens hoveddomæne gav 403. | Kartofler 2 kg **12 kr.**, 6 kr./kg er importeret. Hakket gris 8–12 %, 500 g 20 kr. og hakket okse 15–18 %, 400 g 35 kr. blev også set, men er **ikke** importeret: de svarer ikke til næringskatalogets mørbrad og 5 % oksekød. |\n| Netto | [Officiel Netto Avis](https://netto.dk/netto-avisen/) viste **31. oktober–6. november**. Netto+-priser var mærket som appkrævende. | [eTilbudsavis gulerødder](https://etilbudsavis.dk/soeg/guler%C3%B8dder) havde produkt-id `hv-AJrfnLDqs2I4lUxhyz`, ØGO gulerødder **800 g, 15 kr.**, 18,75 kr./kg; 31.10–6.11. Denne præcise pris er importeret som observation fra tredjepart. Kylling 69 kr. havde flere udskæringer og 900–1000 g og er derfor ikke importeret. |\n| SuperBrugsen | [Officiel avis](https://superbrugsen.coop.dk/avis/) og [PDF-indgang](https://superbrugsen.coop.dk/avis-pdf/) blev åbnet. Primærsiden angav **30. oktober–5. november 2026**, men produktindhold blev ikke udleveret i læsbart feed. | **Ingen konkrete priser importeret.** Medlemstilbud kan kræve aktivering i Coop-appen og må ikke antages at gælde alle. Indtast kun egne relevante tilbud. |\n| MENY | [Officiel indgang](https://meny.dk/ugensavis) linker til [officiel reader](https://ugensavis.meny.dk/), som blev åbnet. Den angav **uge 45, 30.10–5.11.2026**. | Readeren viste bl.a. entrecote 2 stk./500 g til **179,95 kr.** og forskellige medlemspriser. Ingen priser importeret, da disse konkrete varianter ikke matcher kataloget. Readeren er brugbar manuelt; automatisk lokal feed og CORS er ikke verificeret. |\n| 365discount | [Officiel avis](https://365discount.coop.dk/365avis/) angav **29. oktober–4. november 2026**. | [eTilbudsavis gulerødder](https://etilbudsavis.dk/soeg/guler%C3%B8dder) havde produkt-id `jde4NydTdDeC8nt16b-YW`, Lammefjordsgulerødder **1,5 kg, 12 kr.**, 8 kr./kg; 29.10–4.11. Importeret som observation fra tredjepart. |\n\nTjek/eTilbudsavis viste strukturerede produktfelter indlejret i søgesidens HTML: navn, pris, størrelse, gyldighed og medlems-/apppris. Det dokumenterer en prisobservation, men ikke en frit tilgængelig, stabil klient-API. Der er ikke implementeret scraping af HTML via en tredjepartsproxy.\n\n[Prejs API](https://prej.dk/api) blev undersøgt. Den oplyser en gratis hobbykvote på 25 kald/dag med e-mailbekræftet nøgle, samt betalte planer. Den er ikke integreret, da appen skal fungere uden konto og nøgle, og en gratis offentlig no-login API ikke blev bekræftet.\n\n## Manuel indtastning og lokale priser\n\nAlle fem kæder kan bruges via prisformularen. Vælg præcis ingrediens/variant, butik, pakningens spiselige gram, pakkepris eller flerstykstilbud, gyldighed og dokumentation. Medlemspriser kræver aktivt medlemsvalg. Brug postnummeret til at begrænse egne lokale priser; appen må ikke fremstille et valgt postnummer som en verificeret butikssøgning. Normalpriser skal komme fra produkt/bon eller egen indtastning; intet normalt priskatalog er opdigtet.\n\nDet betyder, at første plan kan være ufuldstændigt prissat, indtil brugeren har suppleret med kød, tørvarer, olie og andre manglende varer. En sådan plan har ikke en endelig ugepris eller en påstand om at overholde budgettet. Tilbudssammenligning er alene mellem de gyldige priser, der faktisk er gemt på enheden.\n\n## Vedligeholdelse\n\nAutomatisk aktualisering kræver en separat, dokumenteret offentlig endpoint, som tillader browserkald, eller en selvhostet datatjeneste. En sådan tjeneste leveres ikke med denne lokale app. Hver dateret observation skal ved opdatering erstattes med et nyt opslag og nye gyldighedsdatoer – aldrig blot få ændret kontroltidspunkt.\n"};
+const { INGREDIENTS, RECIPES, NUTRITION_NOTE }=__modules["data.js"];
+const { planWeek, calculatePlan, nutritionForRecipe, recipeIngredients, eligibleOffers }=__modules["engine.js"];
+const { CHAINS, VERIFIED_OFFERS, fetchOffers }=__modules["offers.js"];
+const { loadState, saveState, exportState, importBackup }=__modules["storage.js"];
+const { icon, foodArt }=__modules["visuals.js"];
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const money = n => new Intl.NumberFormat('da-DK',{maximumFractionDigits:2,minimumFractionDigits:2}).format(n);
+const grams = n => `${new Intl.NumberFormat('da-DK',{maximumFractionDigits:1}).format(n)} g`;
+const dateLabel = d => new Date(`${d}T12:00:00`).toLocaleDateString('da-DK',{day:'numeric',month:'short'});
+const iso = () => { const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`; };
+const chain = id => CHAINS.find(c=>c.id===id);
+const storeName = id => chain(id)?.name || id;
+const sourceLink = source => { const url=typeof source==='object'?source?.url:source; const name=typeof source==='object'?source?.name:source;return /^https?:\/\//.test(url||'')?`<a class="source-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${esc(name||'Se kilde')} ↗</a>`:esc(name||'Egen indtastning'); };
+const base = {version:1, profile:{persons:1,budget:400,mode:'dinner',maxRepeat:2,maxStores:2,date:iso(),postalCode:'',members:[],allowFish:false,allowVegetarian:false,targets:[{},{}]},pantry:[],offers:[],customRecipes:[],plan:null,history:[],checked:{},statuses:[]};
+let state,storageError='',storageBlocked=false;
+try{const saved=loadState();state=saved?{...base,...saved,profile:{...base.profile,...saved.profile}}:structuredClone(base);}catch(e){state=structuredClone(base);storageError=e.message;storageBlocked=true;}
+// A separately documented snapshot, never labelled as a live refresh.
+if(!state.knownSnapshot){state.offers=[...state.offers,...VERIFIED_OFFERS.filter(o=>!state.offers.some(x=>x.id===o.id))];state.knownSnapshot=true;}
+let view='week',activeDay=-1,modal=null,previousFocus=null,busy=false;
+const recipes = () => [...RECIPES,...state.customRecipes];
+const currentRecipe = id => state.plan?.recipeSnapshot?.find(r=>r.id===id)||recipes().find(r=>r.id===id);
+const currentIngredients = () => ({...INGREDIENTS,...state.plan?.ingredientSnapshot});
+function persist(){if(storageBlocked)return;try{saveState(state);storageError='';}catch(e){storageError=e.message;toast(storageError);}}
+function recalculate(regenerate=false){
+ const options={profile:state.profile,recipes:recipes(),ingredients:INGREDIENTS,offers:state.offers,pantry:state.pantry};
+ state.plan=regenerate||!state.plan?planWeek(options):calculatePlan({...options,days:state.plan.days});state.checked={};state.cookedWeights={};persist();
+}
+if(!state.plan)recalculate(true);
+function toast(text){if(storageError)text=storageError+' Ændringer er kun i hukommelsen.';$('#toast').textContent=text;$('#toast').classList.add('show');clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('#toast').classList.remove('show'),3500);}
+const navItems=[['week','calendar','Ugeplan'],['shopping','basket','Indkøb'],['prep','chef','Mealprep'],['offers','tag','Tilbud'],['kitchen','kitchen','Mit køkken']];
+function logo(){return `<span class="brand-mark">${icon('sprout')}</span>Søndagsro`;}
+function render(){
+ const p=state.plan;
+ $('#app').innerHTML=`<div class="shell"><aside class="sidebar"><a href="#" class="brand" data-action="nav" data-view="week">${logo()}</a><p class="tagline">God mad. Mere overskud.</p><nav class="nav" aria-label="Hovedmenu">${navItems.map(([id,i,label])=>`<button data-action="nav" data-view="${id}" class="${view===id?'active':''}" ${view===id?'aria-current="page"':''}>${icon(i)}<span class="nav-label">${label}</span>${id==='offers'?'<span class="nav-count">5</span>':''}</button>`).join('')}</nav><div class="sidebar-bottom"><button data-action="settings">${icon('settings')} Din profil</button><div class="local-note">${icon('shield')}<span>Kun på din enhed<br>Intet login. Intet abonnement.</span></div></div></aside><main class="main"><header class="topbar"><div class="breadcrumb">Dit køkken ${icon('chevron')} <strong>${navItems.find(n=>n[0]===view)?.[2]}</strong></div><a class="brand mobile-brand" data-action="nav" data-view="week" href="#">${logo()}</a><div class="top-actions"><span class="offline-dot"><span class="dot"></span>${storageError?'Ikke gemt':navigator.onLine?'Gemt på enheden':'Du er offline'}</span><button class="avatar" data-action="settings" aria-label="Åbn din profil">${icon('users')}</button></div></header><div class="content">${storageError?`<div class="notice" role="alert">${icon('info')}${esc(storageError)} Eksportér en sikkerhedskopi under Mit køkken.</div>`:''}${({week:renderWeek,shopping:renderShopping,prep:renderPrep,offers:renderOffers,kitchen:renderKitchen}[view])()}<p class="footer-note">${icon('shield')}Din profil, dine opskrifter og din ugeplan gemmes kun i denne browser. Ingen betalt AI.</p></div></main></div>`;
+}
+function planControls(){return `<div class="planner-bar"><label>${icon('users')}<select aria-label="Antal personer" data-profile="persons"><option value="1" ${state.profile.persons===1?'selected':''}>1 person</option><option value="2" ${state.profile.persons===2?'selected':''}>2 personer</option></select></label><span class="bar-divider"></span><label>${icon('chef')}<select aria-label="Måltider" data-profile="mode"><option value="dinner" ${state.profile.mode==='dinner'?'selected':''}>Kun aftensmad</option><option value="all" ${state.profile.mode==='all'?'selected':''}>Alle hovedmåltider</option></select></label><span class="bar-divider"></span><label>${icon('store')}<select aria-label="Højst antal butikker" data-profile="maxStores"><option value="1" ${state.profile.maxStores===1?'selected':''}>Højst 1 butik</option><option value="2" ${state.profile.maxStores===2?'selected':''}>Højst 2 butikker</option><option value="free" ${state.profile.maxStores==='free'?'selected':''}>Frit butiksvalg</option></select></label><button class="ghost" data-action="settings">Tilpas min uge ${icon('settings')}</button></div>`;}
+function stats(){const p=state.plan;return `<div class="stats"><div class="stat"><div class="stat-label">${p.complete?'Ugens indkøb':'Kendte priser'}${icon('wallet')}</div><div class="stat-value">${money(p.total)}<span>kr.</span></div><div class="stat-note">${p.complete?'Hele pakker · efter køkkenlager':`${p.unresolved.length} varer mangler en pris`}</div></div><div class="stat"><div class="stat-label">Tilbage af budget ${icon('leaf')}</div><div class="stat-value">${p.complete?money(p.remaining):'—'}<span>${p.complete?'kr.':''}</span></div><div class="stat-note">${p.complete?(p.overBudget>0?'Budgettet er overskredet':'Af dit budget på '+money(state.profile.budget)+' kr.'):'Uafklaret · budget '+money(state.profile.budget)+' kr.'}</div></div><div class="stat"><div class="stat-label">Ved bordet ${icon('users')}</div><div class="stat-value">${state.profile.persons}<span>${state.profile.persons===1?'person':'personer'}</span></div><div class="stat-note">7 dage · ${state.profile.mode==='all'?'21 hovedmåltider':'7 aftensmåltider'}</div></div><div class="stat"><div class="stat-label">På indkøbsturen ${icon('store')}</div><div class="stat-value">${p.stores.length}<span>${p.stores.length===1?'butik':'butikker'}</span></div><div class="stat-note">${p.complete?'Billigste fundne kombination':'Foreløbigt · manglende priser'}</div></div></div>`;}
+function budgetNotice(){const p=state.plan;if(!p.complete)return `<div class="notice">${icon('info')}<span>Ugens pris er ikke afklaret. ${p.unresolved.length} varer mangler en gyldig pris. Tilføj tilbud eller normalpriser for at kontrollere dit budget. <a href="#" data-action="nav" data-view="shopping">Se de manglende varer →</a>${p.warnings?.length?'<br>'+p.warnings.map(esc).join('<br>'):''}</span></div>`;if(p.overBudget>0)return `<div class="notice">${icon('info')}<span>Billigste fundne plan er ${money(p.overBudget)} kr. over dit budget. Dine portioner er bevaret.<br>${p.suggestions.map(esc).join(' ')}</span></div>`;return `<div class="notice success">${icon('check')}<span>Hele indkøbskurven er prissat og ${money(p.remaining)} kr. under budget. ${p.savingsSecondStore!==null?`Butik nummer to sparer ${money(p.savingsSecondStore)} kr. på samme mad.`:''}</span></div>`;}
+function renderWeek(){const p=state.plan;const weekNum=p.days[0]?getWeek(p.days[0].date):getWeek(state.profile.date);const batches=p.batches.filter(b=>b.category==='dinner');return `<div class="page-heading"><div><p class="eyebrow">${icon('sprout')} Lidt søndagsro til hele ugen</p><h1>Din uge, gjort lidt lettere.</h1><p class="subtitle">God mad i madkassen. Mere tid til alt det andet.</p></div><button class="primary" data-action="generate">${icon('refresh')} Lav min ugeplan</button></div>${planControls()}${stats()}${budgetNotice()}<div class="week-layout"><div><div class="section-heading"><div><h2>På menuen i uge ${weekNum}</h2><p>${p.days[0]?`${dateLabel(p.days[0].date)} – ${dateLabel(p.days.at(-1).date)}`:''} · ${batches.length} tilberedninger af aftensmad</p></div><button class="ghost" data-action="nav" data-view="prep">Køkkenplan ${icon('arrow')}</button></div><div class="days" role="group" aria-label="Vælg dag">${p.days.map((d,i)=>`<button class="day-tab ${activeDay===i?'active':''}" data-action="day" data-index="${i}" aria-pressed="${activeDay===i}"><strong>${esc(d.label?.slice(0,3)||'Dag')}</strong>${Number(d.date.slice(-2))}. ${icon('check').replace('class="icon ','style="width:9px;height:9px" class="icon ')}</button>`).join('')}</div>${activeDay>=0?renderDay(p.days[activeDay],activeDay):`<div class="meal-grid">${batches.map((b,i)=>mealCard(b,i)).join('')}</div>`}</div><aside class="week-aside"><div class="side-panel">${icon('basket')}<h3>Et overblik, før du handler.</h3><p>Vi samler ingredienserne og regner i hele pakker. Det, du har i skabet, tæller med.</p><div class="store-list">${CHAINS.map(c=>`<div class="store-status"><span class="store-logo ${esc(c.id)}">${esc(c.name)}</span><small>${eligibleOffers(state.offers,state.profile).some(o=>o.store===c.id)?'Priser klar':'Manuel'}</small></div>`).join('')}</div><div class="panel-foot">Indkøb ${dateLabel(state.profile.date)}${state.profile.postalCode?' · '+esc(state.profile.postalCode):' · vælg postnummer i din profil'}<br>Priser kontrolleres mod din indkøbsdag.</div><button class="primary" data-action="nav" data-view="shopping">Åbn indkøbslisten ${icon('arrow')}</button></div><div class="tip-card"><span class="tip-label">${icon('snow')} Et lille tip fra køkkenet</span><p>Gem de næste to dages mad på køl. Frys resten i portioner efter hurtig nedkøling, og tø op i køleskabet.</p></div></aside></div>`;}
+function getWeek(date){const d=new Date(date+'T12:00:00Z');d.setUTCDate(d.getUTCDate()+4-(d.getUTCDay()||7));return Math.ceil((((d-new Date(Date.UTC(d.getUTCFullYear(),0,1)))/86400000)+1)/7);}
+function macroBar(n){return `<div class="macros"><div class="macro"><b>${Math.round(n.kcal)}</b>kcal</div><div class="macro protein"><b>${Math.round(n.protein)} g</b>protein</div><div class="macro"><b>${Math.round(n.carbs)} g</b>kulhydrat</div><div class="macro"><b>${Math.round(n.fat)} g</b>fedt</div></div>`;}
+function mealCard(batch,index){const r=currentRecipe(batch.recipeId),n=nutritionForRecipe(r,currentIngredients());const dayIndex=state.plan.days.findIndex(d=>d.date===batch.days[0]);return `<article class="meal-card">${foodArt(r,index)}<span class="meal-top-tag">${icon('box')}${batch.servings} ${batch.servings===1?'madkasse':'madkasser'}</span><div class="meal-content"><div class="meal-day">${batch.dayLabels.map(esc).join(' & ')}</div><h3>${esc(r.name)}</h3><p class="meal-desc">${esc(r.description)}</p><div class="meal-meta"><span>${icon('clock')}${r.minutes} min.</span><span>${icon('leaf')}${r.diet==='meat'?'200 g råt kød':r.diet==='fish'?'Fisketilvalg':'Vegetarisk'}</span></div>${macroBar(n)}<div class="meal-footer"><button class="text-link" data-action="recipe" data-id="${esc(r.id)}" data-servings="${batch.servings}">Se opskrift ${icon('arrow')}</button><button class="icon-button" data-action="swap" data-index="${dayIndex}" aria-label="Udskift én aften med ${esc(r.name)}">${icon('refresh')}</button></div></div></article>`;}
+function renderDay(day,index){if(!day)return '';return `<div class="card"><div class="card-header"><h3>${esc(day.label)}, ${dateLabel(day.date)}</h3><button class="ghost small" data-action="day" data-index="-1">Vis hele ugen</button></div>${Object.entries(day.meals).map(([type,id])=>{const r=currentRecipe(id);return `<div class="list-row"><div class="row-info"><span class="eyebrow">${({breakfast:'Morgenmad',lunch:'Frokost',dinner:'Aftensmad'})[type]}</span><b>${esc(r.name)}</b><p>${state.profile.persons} portioner · ${r.ingredients.reduce((s,i)=>s+i.grams,0)} g rå ingredienser pr. portion</p></div><button class="icon-button" data-action="recipe" data-id="${esc(id)}" data-servings="${state.profile.persons}" aria-label="Se opskrift">${icon('book')}</button>${type==='dinner'?`<button class="icon-button" data-action="swap" data-index="${index}" aria-label="Udskift retten">${icon('refresh')}</button>`:''}</div>`;}).join('')}<h3 style="margin-top:22px">${state.profile.mode==='all'?'Hele dagen':'Aftensmadens bidrag'} · pr. person</h3>${macroBar(day.nutrition)}${targetBars(day.nutrition)}<p class="tiny muted" style="margin-top:15px">${state.profile.mode==='all'?'Snacks og drikke uden for opskrifterne indgår ikke.':'Dagens øvrige måltider indgår ikke i denne plan.'}</p></div>`;}
+function targetBars(n){return Array.from({length:state.profile.persons},(_,i)=>{const t=state.profile.targets?.[i]||{};return `<p class="tiny muted" style="margin-top:18px">Person ${i+1} · ${Object.values(t).some(Boolean)?'dine egne dagsmål':'ingen dagsmål angivet'}</p>${['kcal','protein','carbs','fat'].filter(k=>t[k]>0).map(k=>`<div class="tiny muted" style="margin:10px 0">${({kcal:'Energi',protein:'Protein',carbs:'Kulhydrat',fat:'Fedt'})[k]}: ${Math.round(n[k])} / ${esc(t[k])} ${k==='kcal'?'kcal':'g'} (${Math.round(n[k]/t[k]*100)} %)<div class="progress"><span style="width:${Math.min(100,n[k]/t[k]*100)}%"></span></div></div>`).join('')}`;}).join('');}
+function heading(eye,title,sub,action=''){return `<div class="page-heading"><div><p class="eyebrow">${eye}</p><h1>${title}</h1><p class="subtitle">${sub}</p></div>${action}</div>`;}
+function renderShopping(){const p=state.plan;return `${heading('Fra plan til indkøb','Lidt mindre at huske.','Kryds af undervejs. Listen bliver på din telefon.',`<button class="secondary" data-action="offer">${icon('plus')} Tilføj en pris</button>`)}${stats()}${budgetNotice()}${p.savingsSecondStore!==null?`<p class="tiny muted">Samme kurv i én butik: ${p.oneStoreTotal===null?'uafklaret':money(p.oneStoreTotal)+' kr.'} · To butikker: ${p.twoStoreTotal===null?'uafklaret':money(p.twoStoreTotal)+' kr.'} · Besparelse: ${money(p.savingsSecondStore)} kr.</p>`:''}<div class="two-columns"><div>${p.stores.map(id=>`<section class="card"><div class="card-header"><h2>${esc(storeName(id))}</h2><span class="badge">${money(p.shopping.filter(r=>r.store===id).reduce((s,r)=>s+r.total,0))} kr.</span></div>${p.shopping.filter(r=>r.store===id).map(r=>`<label class="list-row ${state.checked[r.id]?'checked':''}"><input type="checkbox" data-check="${esc(r.id)}" ${state.checked[r.id]?'checked':''}><div class="row-info"><b>${esc(r.offer?.name||r.name)}</b><p>${r.packages} × ${grams(r.packageGrams)} · behov ${grams(r.neededGrams)}<br>${r.leftoverGrams>0?`${grams(r.leftoverGrams)} til overs · `:''}${r.offer?.memberOnly?'Medlemspris · ':''}${r.offer?.type==='regular'?'Normalpris':'Tilbud'}${r.offer?.validTo?' til '+dateLabel(r.offer.validTo):''}</p></div><span class="row-price">${money(r.total)} kr.<small>${money(r.total/r.purchasedGrams*1000)} kr./kg</small></span></label>`).join('')}</section>`).join('')}${p.unresolved.length?`<section class="card"><div class="card-header"><h2>Mangler en pris</h2><span class="badge warning">${p.unresolved.length} uafklarede</span></div><p class="tiny muted">Disse varer er nødvendige, men er ikke med i det kendte beløb. Angiv en dokumenteret normalpris eller dit eget tilbud.</p>${p.unresolved.map(r=>`<div class="list-row"><div class="row-info"><b>${esc(r.name)}</b><p>${grams(r.neededGrams)} skal købes</p></div><button class="secondary small" data-action="offer" data-ingredient="${esc(r.ingredientId)}">Tilføj pris</button></div>`).join('')}</section>`:''}${!p.shopping.length&&!p.unresolved.length?'<div class="card empty">Alt til planen findes i dit køkkenlager.</div>':''}</div><aside><section class="card"><h2>Fra dit køkken</h2><p class="tiny muted">Trukket fra, før vi regner pakker.</p>${p.ingredientsRequired.filter(r=>r.pantryGrams>0).map(r=>`<div class="ingredient-row"><span>${esc(r.name)}</span><strong>${grams(r.pantryGrams)}</strong></div>`).join('')||'<p class="tiny muted">Dit køkkenlager er tomt.</p>'}<button class="text-link" data-action="nav" data-view="kitchen">Ret mit lager ${icon('arrow')}</button></section><section class="card"><h2>Gode rester</h2><p class="tiny muted">Indkøbte gram, som ikke bruges i planen. De er ikke automatisk føjet til lageret.</p>${p.leftovers.map(r=>`<div class="ingredient-row"><span>${esc(r.name)}</span><strong>${grams(r.grams)}</strong></div>`).join('')||'<p class="tiny muted">Ingen beregnede pakkerester endnu.</p>'}</section></aside></div>`;}
+function renderPrep(){const p=state.plan;return `${heading('En rolig stund i køkkenet','Lav maden. Find roen.','Afvej det hele først. Så er ugens madkasser godt på vej.')}<div class="notice success">${icon('snow')}<span>Køl maden hurtigt ned i lave beholdere. Gem højst to dages portioner ved maks. 5 °C; frys resten straks efter nedkøling. Optø i køleskab og varm helt igennem til mindst 75 °C. Kolde måltider samles højst to dage frem.</span></div><div class="two-columns"><div><section class="card"><h2>1. Find ingredienserne frem</h2><p class="tiny muted">Hele ugens mængder før tilberedning – inklusive det, du har på lager.</p>${p.ingredientsRequired.map(r=>`<div class="ingredient-row"><span>${esc(r.name)}<small class="muted" style="display:block;font-size:9px;margin-top:4px">${esc(currentIngredients()[r.id]?.weightNote||'Rå, spiselig vægt')}</small></span><strong class="no-wrap">${grams(r.requiredGrams)}</strong></div>`).join('')}</section>${p.batches.map((b,i)=>`<section class="card"><div class="card-header"><h2>${i+2}. ${esc(b.name)}</h2><span class="badge">${b.servings} portioner</span></div><p class="tiny muted">${b.dayLabels.map(esc).join(' & ')} · ${esc(({dinner:'Aftensmad',breakfast:'Morgenmad',lunch:'Frokost'})[b.category])}</p><div class="prep-summary">${b.ingredients.map(r=>`<span class="badge">${grams(r.grams)} ${esc(currentIngredients()[r.id]?.name||r.name)}</span>`).join('')}</div><div class="prep-boxes"><b>I hver af ${b.servings} madkasser, målt før tilberedning:</b><br>${b.ingredients.map(r=>`${grams(r.gramsPerServing)} ${esc(r.name)}`).join(' · ')}<br>Vej den færdige mængde af hver tilberedt ingrediens og del med ${b.servings}. Kogt vægt varierer; ${b.ingredients.some(r=>['rice','pasta'].includes(r.id))?'ris og pasta ovenfor er altid tør vægt.':'de rå gram ovenfor er ikke færdig portionsvægt.'}${prepWeighing(b)}</div><button class="text-link" data-action="recipe" data-id="${esc(b.recipeId)}" data-servings="${b.servings}">Se tilberedningstrin ${icon('arrow')}</button></section>`).join('')}</div><aside><section class="side-panel">${icon('chef')}<h3>Gør det i denne rækkefølge</h3><p>1. Mærk madkasser med ret og dag.<br>2. Start ovn og tørre ris eller pasta.<br>3. Klargør grøntsager og vej olie af.<br>4. Tilbered kød på et separat skærebræt.<br>5. Vej færdig mad, fordel ligeligt og køl hurtigt ned.</p><div class="panel-foot">Kog gerne alle ris samlet. Brug pakkens anvisning til vand og kogetid. Del de kogte ris efter forholdet mellem retternes tørre rismængder.</div></section></aside></div>`;}
+function prepWeighing(b){return `<details style="margin-top:13px"><summary>Vej færdig mad – beregn gram pr. madkasse</summary><p class="tiny muted">Indtast den samlede tilberedte vægt uden gryde. Vi deler med ${b.servings}; vi gætter ikke på kogesvind eller vandoptagelse.</p><div class="form-grid">${b.ingredients.map(i=>{const key=`${b.id}-${i.id}`,v=state.cookedWeights?.[key];return `<label class="field">${esc(i.name)}<input type="number" inputmode="decimal" min="0" max="100000" step="0.1" placeholder="Færdige gram i alt" data-cooked="${esc(key)}" data-servings="${b.servings}" value="${v??''}"><small id="weigh-${esc(key)}">${v===undefined?'Vej hele den færdige mængde':grams(v/b.servings)+' i hver madkasse'}</small></label>`;}).join('')}</div></details>`;}
+function renderOffers(){
+ const active=eligibleOffers(state.offers,state.profile);
+ return `${heading('Kilder, du kan se efter','Gode fund til madkassen.','Kun dokumenterede priser. Ingen gættede tilbud.',`<button class="primary" data-action="offer">${icon('plus')} Tilføj tilbud / normalpris</button>`)}
+ <div class="planner-bar"><label>${icon('pin')}<input type="text" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" placeholder="Dit postnummer" aria-label="Postnummer" data-profile="postalCode" value="${esc(state.profile.postalCode)}"></label><label>Indkøbsdag <input type="date" required aria-label="Indkøbsdag" data-profile="date" value="${esc(state.profile.date)}"></label><button class="ghost" data-action="refresh-offers" ${busy?'disabled':''}>${icon('refresh')}${busy?'Kontrollerer…':'Se kildestatus'}</button></div>
+ <div class="notice">${icon('info')}<span>De medfølgende tilbud er et særskilt, verificeret øjebliksbillede fra 2. november 2026, ikke en livehentning. Kun tilbud, som gælder på din valgte indkøbsdag og passer til varen, indgår i planen. Lokale priser skal bekræftes for dit postnummer. <a href="./docs/SOURCES.md" target="_blank">Læs kildekontrollen ↗</a></span></div>
+ <div class="status-grid">${CHAINS.map(c=>{const s=state.statuses.find(s=>s.id===c.id||s.store===c.id||s.chainId===c.id)||c;const count=active.filter(o=>o.store===c.id).length;return `<section class="chain-card"><div class="chain-head"><span class="store-logo ${esc(c.id)}">${esc(c.name)}</span><span class="badge ${count?'':'warning'}">${count?count+' anvendelige priser':'Manuel indtastning'}</span></div><p>${esc(s.note||s.message||c.note||'Automatisk hentning er ikke tilgængelig. Indtast prisen fra kædens tilbudsavis.')}</p><div class="inline-actions"><a class="secondary small" href="${esc(c.url)}" target="_blank" rel="noopener">Åbn tilbudsavis ↗</a><button class="secondary small" data-action="offer" data-store="${esc(c.id)}">Tilføj pris</button></div></section>`;}).join('')}</div>
+ <div class="section-heading"><div><h2>Dit priskartotek</h2><p>${active.length} anvendelige af ${state.offers.length} gemte priser · udløbne priser bruges aldrig</p></div></div>
+ ${state.offers.map(o=>{const usable=active.some(a=>a.id===o.id);return `<section class="card"><div class="card-header"><div><span class="eyebrow">${esc(storeName(o.store))} · ${o.manual?'Din indtastning':'Verificeret kilde'}</span><h3>${esc(o.name)}</h3></div><span class="badge ${usable?'':'warning'}">${usable?'Anvendelig':'Bruges ikke'}</span></div><div class="offer-details">${grams(o.packageGrams)} · ${o.price===null?'Kun flerstykstilbud':money(o.price)+' kr. pr. pakke · '+money(o.price/o.packageGrams*1000)+' kr./kg'}${o.multiBuy?` · ${o.multiBuy.count} pakker for ${money(o.multiBuy.price)} kr. (${money(o.multiBuy.price/(o.multiBuy.count*o.packageGrams)*1000)} kr./kg)`:''}<br>${o.type==='regular'?'Normalpris':'Tilbud'} · ${o.validFrom?dateLabel(o.validFrom):'uden startdato'} – ${o.validTo?dateLabel(o.validTo):'ingen slutdato'}${o.memberOnly?' · kun medlemmer':''} · ${o.postalCode?'Postnr. '+esc(o.postalCode):'National kilde, kontrollér lokal butik'}<br>Matches til ${esc(INGREDIENTS[o.ingredientId]?.name||o.ingredientId)}<br>${sourceLink(o.source)}</div><div class="form-actions">${o.manual?`<button class="ghost small" data-action="edit-offer" data-id="${esc(o.id)}">${icon('edit')} Ret pris</button>`:''}<button class="ghost small" data-action="delete-offer" data-id="${esc(o.id)}">${icon('trash')} Fjern</button></div></section>`;}).join('')}`;
+}
+function renderKitchen(){return `${heading('Alt det, du allerede har','Dit lille køkkenlager.','Lageret trækkes fra indkøb. Kun du ændrer beholdningen.',`<button class="primary" data-action="pantry">${icon('plus')} Tilføj til lager</button>`)}<div class="two-columns"><div><section class="card"><h2>I skabe og køleskab</h2>${state.pantry.length?state.pantry.map(r=>`<div class="list-row"><div class="row-info"><b>${esc(INGREDIENTS[r.id]?.name||r.id)}</b><p>${esc(INGREDIENTS[r.id]?.weightNote)}</p></div><b>${grams(r.grams)}</b><button class="icon-button" data-action="pantry" data-ingredient="${esc(r.id)}" aria-label="Ret mængde">${icon('edit')}</button><button class="icon-button" data-action="delete-pantry" data-id="${esc(r.id)}" aria-label="Fjern fra lager">${icon('trash')}</button></div>`).join(''):'<div class="empty">'+icon('kitchen')+'<p>En pose ris? Lidt olie?<br>Tilføj det, du har, og køb kun det, du mangler.</p></div>'}</section><div class="section-heading"><h2>Dine opskrifter</h2><button class="ghost" data-action="custom-recipe">${icon('plus')} Opret opskrift</button></div>${recipes().map(r=>`<div class="list-row"><div class="row-info"><b>${esc(r.name)}</b><p>${r.category==='dinner'?'Aftensmad':r.category==='breakfast'?'Morgenmad':'Frokost'} · ${r.minutes} min. · ${r.ingredients.reduce((s,i)=>s+i.grams,0)} g rå ingredienser</p></div><button class="icon-button" data-action="recipe" data-id="${esc(r.id)}" data-servings="1" aria-label="Se opskrift">${icon('book')}</button>${state.customRecipes.some(x=>x.id===r.id)?`<button class="icon-button" data-action="custom-recipe" data-id="${esc(r.id)}" aria-label="Rediger egen opskrift">${icon('edit')}</button>`:''}</div>`).join('')}</div><aside><section class="side-panel">${icon('shield')}<h3>Din mad. Dine data.</h3><p>Alt ligger i denne browsers lokale lager. Gem en sikkerhedskopi, før du skifter telefon, rydder browserdata eller fjerner webappen.</p><div class="inline-actions"><button class="secondary small" data-action="export">${icon('download')} Eksportér</button><button class="secondary small" data-action="import">${icon('upload')} Importér</button></div><input type="file" id="backup-file" accept="application/json,.json" hidden><div class="panel-foot" style="margin-top:18px"><a href="./docs/INSTALLATION.md" target="_blank">Installér på iPhone ↗</a></div></section><section class="card" style="margin-top:18px"><h2>Gemte uger</h2>${state.history.length?state.history.map((h,i)=>`<div class="list-row"><div class="row-info"><b>Uge ${getWeek(h.days[0]?.date||h.profile.date)}</b><p>${dateLabel(h.profile.date)} · ${h.profile.persons} personer<br>${h.complete?money(h.total)+' kr.':'Prisen er uafklaret'}</p></div><button class="ghost small" data-action="history" data-index="${i}">Åbn</button></div>`).join(''):'<p class="tiny muted">Tryk “Lav min ugeplan” for at gemme en uge. De seneste 12 planer bevares.</p>'}</section><section class="card"><h3>Næringskilder</h3><p class="tiny muted">${esc(NUTRITION_NOTE)}</p><a class="tiny" href="./docs/NUTRITION.md" target="_blank">Læs om vægte og kilder ↗</a></section></aside></div>`;}
+
+function showModal(title,body){
+ previousFocus=document.activeElement;modal=true;
+ $('#dialog-root').innerHTML=`<div class="dialog-backdrop"><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title"><div class="dialog-header"><h2 id="dialog-title">${title}</h2><button data-action="close" aria-label="Luk">${icon('close')}</button></div>${body}</section></div>`;
+ $('#dialog-root button, #dialog-root input')?.focus();document.body.style.overflow='hidden';
+}
+function closeModal(){modal=null;$('#dialog-root').innerHTML='';document.body.style.overflow='';if(previousFocus?.isConnected)previousFocus.focus();}
+const field=(label,name,value,type='text',extra='')=>`<label class="field">${label}<input name="${name}" type="${type}" value="${esc(value)}" ${extra}></label>`;
+const ingredientOptions = selected => Object.entries(INGREDIENTS).map(([id,i])=>`<option value="${id}" ${selected===id?'selected':''}>${esc(i.name)}</option>`).join('');
+const chainOptions = selected => CHAINS.map(c=>`<option value="${esc(c.id)}" ${selected===c.id?'selected':''}>${esc(c.name)}</option>`).join('');
+function settingsModal(){const p=state.profile;showModal('Din uge, på dine vilkår',`<form id="profile-form"><div class="form-grid">${field('Ugens budget i alt (kr.)','budget',p.budget,'number','min="0" max="100000" step="0.01" required')}${field('Dit postnummer','postalCode',p.postalCode,'text','inputmode="numeric" pattern="[0-9]{4}" maxlength="4" required')}${field('Indkøbsdag','date',p.date,'date','required')}<label class="field">Dage i træk med samme ret<select name="maxRepeat">${[1,2,3,4,7].map(n=>`<option value="${n}" ${p.maxRepeat===n?'selected':''}>Højst ${n} ${n===1?'dag':'dage'}</option>`).join('')}</select></label></div><p class="tiny muted" style="margin-top:16px">Planen starter mandag på eller efter indkøbsdagen. Budgettet ændres ikke, når du vælger to personer.</p><h3>Dine aktive tilvalg</h3><label class="check-field"><input type="checkbox" name="allowFish" ${p.allowFish?'checked':''}>Tilbyd også fiskeretter</label><label class="check-field"><input type="checkbox" name="allowVegetarian" ${p.allowVegetarian?'checked':''}>Tilbyd også vegetarisk aftensmad</label><h3>Medlemskaber</h3><p>Medlemspriser bruges kun for kæder, du markerer her.</p><div class="form-grid">${CHAINS.map(c=>`<label class="check-field"><input type="checkbox" name="members" value="${esc(c.id)}" ${p.members.includes(c.id)?'checked':''}>${esc(c.name)}</label>`).join('')}</div><h3>Dine egne dagsmål</h3><p>Valgfrit. Appen fastsætter ingen kalorie- eller makromål for dig. Portionerne er ens; mål kan være forskellige.</p>${[0,1].map(i=>`<p>Person ${i+1}${i===1&&p.persons===1?' (til næste gang I er to)':''}</p><div class="targets-grid">${[['kcal','kcal'],['protein','Protein (g)'],['carbs','Kulhydrat (g)'],['fat','Fedt (g)']].map(([k,l])=>field(l,`target-${i}-${k}`,p.targets?.[i]?.[k]||'','number','min="0" max="10000" step="0.1"')).join('')}</div>`).join('')}<div class="form-actions"><button type="button" class="secondary" data-action="close">Annuller</button><button class="primary" type="submit">Gem og genberegn ${icon('check')}</button></div></form>`);}
+function offerModal(id='',ingredient='',store=''){
+ const o=state.offers.find(o=>o.id===id)||{ingredientId:ingredient||Object.keys(INGREDIENTS)[0],store:store||CHAINS[0].id,price:'',packageGrams:'',validFrom:state.profile.date,validTo:state.profile.date,type:'offer',postalCode:state.profile.postalCode};
+ showModal(id?'Ret din pris':'Tilføj en pris fra butikken',`<form id="offer-form" data-id="${esc(id)}"><p>Prisen bruges direkte i kurven, hvis dato, postnummer og medlemskab passer. Brug samme vare og fedtprocent som næringsreferencen.</p><div class="form-grid"><label class="field full">Ingrediens i opskrifterne<select name="ingredientId">${ingredientOptions(o.ingredientId)}</select><small id="offer-weight-note">${esc(INGREDIENTS[o.ingredientId]?.weightNote)}</small></label><label class="field">Butik<select name="store">${chainOptions(o.store)}</select></label><label class="field">Pristype<select name="type"><option value="offer" ${o.type!=='regular'?'selected':''}>Tilbud</option><option value="regular" ${o.type==='regular'?'selected':''}>Normalpris</option></select></label><label class="field full">Præcist varenavn<input name="name" value="${esc(o.name||'')}" placeholder="Fx kyllingebryst uden skind og ben" maxlength="180" required></label>${field('Spiselige gram pr. pakke','packageGrams',o.packageGrams,'number','min="1" max="100000" step="0.1" required')}${field('Pris for én pakke (kr.)','price',o.price??'','number','min="0" max="100000" step="0.01"')}<div class="field full"><small>Ved æg: samlet vægt uden skal. Ved bønner: drænet vægt. Ved olie: gram, ikke ml. Lad enkeltprisen være tom, hvis varen kun sælges som flerstykstilbud.</small></div>${field('Flerstyk: antal pakker','bundleCount',o.multiBuy?.count||'','number','min="2" max="100" step="1"')}${field('Flerstyk: samlet pris (kr.)','bundlePrice',o.multiBuy?.price??'','number','min="0" max="100000" step="0.01"')}${field('Gælder fra','validFrom',o.validFrom||state.profile.date,'date','required')}${field('Gælder til / kontroller igen','validTo',o.validTo||state.profile.date,'date','required')}${field('Postnr. (tom = landsdækkende)','postalCode',o.postalCode||'','text','inputmode="numeric" pattern="[0-9]{4}" maxlength="4"')}<label class="field">Kilde / hvor så du prisen?<input name="source" value="${esc(typeof o.source==='object'?o.source.url:o.source||'')}" placeholder="URL eller fx egen bon, dato og butik" maxlength="1000" required></label></div><label class="check-field"><input type="checkbox" name="memberOnly" ${o.memberOnly?'checked':''}>Kun medlemspris</label><div class="form-actions"><button type="button" class="secondary" data-action="close">Annuller</button><button type="submit" class="primary">Gem pris og genberegn</button></div></form>`);
+}
+function pantryModal(id=''){const row=state.pantry.find(r=>r.id===id);showModal('Hvad har du allerede?',`<form id="pantry-form"><div class="form-grid"><label class="field full">Ingrediens<select name="id">${ingredientOptions(id)}</select></label>${field('Tilgængelig, spiselig mængde (gram)','grams',row?.grams||'','number','min="0" max="1000000" step="0.1" required')}</div><p>Ris og pasta vejes tørre, bønner drænede og kød råt uden ben. Mængden erstatter en tidligere beholdning af samme ingrediens.</p><div class="form-actions"><button type="button" class="secondary" data-action="close">Annuller</button><button type="submit" class="primary">Gem mit lager</button></div></form>`);}
+function recipeModal(id,servings=1){const r=currentRecipe(id)||recipes().find(r=>r.id===id);if(!r)return;const ingredients=currentIngredients();const n=nutritionForRecipe(r,ingredients);showModal(esc(r.name),`${foodArt(r)}<p>${esc(r.description)} · ${r.minutes} min. · ${servings} portioner</p>${macroBar(n)}<p class="tiny muted" style="margin-top:12px">Næring pr. person og portion · beregnet estimat. ${r.diet==='meat'&&r.category==='dinner'?'200 g råt, spiseligt kød pr. person.':''}</p><h3>Ingredienser til ${servings} ${servings===1?'portion':'portioner'}</h3>${recipeIngredients(r,ingredients).map(i=>`<div class="ingredient-row"><span>${esc(ingredients[i.id]?.name||i.id)}<small class="muted" style="display:block;font-size:9px;margin-top:5px">${esc(ingredients[i.id]?.weightNote)}</small></span><strong class="no-wrap">${grams(i.grams*servings)}</strong></div>`).join('')}<h3>Sådan gør du</h3>${r.steps.map((s,i)=>`<div class="step"><span class="step-number">${i+1}</span><span>${esc(s)}</span></div>`).join('')}<h3>Opbevaring og portioner</h3><p>${esc(r.storage)}</p><p>${esc(r.portionNote||'Fordel den færdige ret ligeligt. Rå vægt er ikke tilberedt vægt.')}</p><details><summary class="tiny">Se næringskilder og vægtgrundlag</summary><p class="tiny">${esc(NUTRITION_NOTE)}</p>${r.ingredients.map(i=>`<p class="tiny">${esc(ingredients[i.id]?.name)}: ${sourceLink(ingredients[i.id]?.source)}</p>`).join('')}</details><div class="form-actions"><button class="primary" data-action="close">Tilbage til min uge</button></div>`);}
+function swapModal(index){const day=state.plan.days[index];const allowed=recipes().filter(r=>r.category==='dinner'&&r.id!==day.meals.dinner&&(r.diet!=='fish'||state.profile.allowFish)&&(r.diet!=='vegetarian'||state.profile.allowVegetarian));showModal(`Noget andet til ${esc(day.label)}?`,`<p>Du udskifter kun denne aften. Indkøbslisten og hele pakker genberegnes. Portionskravet og budgettet bevares.</p>${allowed.map(r=>{const n=nutritionForRecipe(r,INGREDIENTS);return `<button class="recipe-picker" data-action="choose-swap" data-id="${esc(r.id)}" data-index="${index}">${icon('chef')}<span>${esc(r.name)}<small>${Math.round(n.kcal)} kcal · ${Math.round(n.protein)} g protein · ${r.diet==='meat'?'200 g råt kød':r.diet==='fish'?'Fisk':'Vegetarisk'}</small></span>${icon('arrow')}</button>`;}).join('')}`);}
+function customRecipeModal(id=''){
+ const r=state.customRecipes.find(r=>r.id===id)||{name:'',category:'dinner',diet:'meat',minutes:30,ingredients:[],steps:[],description:''};
+ showModal(id?'Ret din opskrift':'Din egen opskrift',`<form id="recipe-form" data-id="${esc(id)}"><p>Angiv gram pr. person og portion. Kødaftensmad tilpasses altid til præcis 200 g råt, spiseligt kød. Andre ingredienser ændres ikke.</p><div class="form-grid">${field('Navn','name',r.name,'text','required maxlength="120"')}${field('Tilberedningstid (min.)','minutes',r.minutes,'number','min="1" max="600" required')}<label class="field">Måltid<select name="category">${[['dinner','Aftensmad'],['breakfast','Morgenmad'],['lunch','Frokost']].map(([v,l])=>`<option value="${v}" ${r.category===v?'selected':''}>${l}</option>`).join('')}</select></label><label class="field">Proteinkilde<select name="diet">${[['meat','Kød'],['fish','Fisk'],['vegetarian','Vegetarisk']].map(([v,l])=>`<option value="${v}" ${r.diet===v?'selected':''}>${l}</option>`).join('')}</select></label></div><h3>Gram pr. portion</h3><p>Sæt kun gram på de ingredienser, du bruger. Kilder og rå/tør/drænet vægt følger ingrediensen.</p><div class="form-grid">${Object.entries(INGREDIENTS).map(([id,i])=>field(esc(i.name),`grams-${id}`,r.ingredients.find(x=>x.id===id)?.grams||'','number','min="0" max="5000" step="0.1"')).join('')}</div><label class="field full" style="margin-top:20px">Fremgangsmåde, ét trin pr. linje<textarea name="steps" required maxlength="10000">${esc(r.steps.join('\n'))}</textarea></label><div class="form-actions"><button type="button" class="secondary" data-action="close">Annuller</button><button type="submit" class="primary">Gem min opskrift</button></div></form>`);
+}
+
+document.addEventListener('click',async e=>{
+ const b=e.target.closest('[data-action]');if(!b){if(e.target.classList.contains('dialog-backdrop'))closeModal();return;}
+ e.preventDefault();const {action,id,index,ingredient,store}=b.dataset;
+ try{
+ switch(action){
+ case 'nav':view=b.dataset.view;activeDay=-1;render();window.scrollTo(0,0);break;
+ case 'settings':settingsModal();break;
+ case 'generate':recalculate(true);state.history.unshift(structuredClone(state.plan));state.history=state.history.slice(0,12);activeDay=-1;persist();render();toast('Din ugeplan er klar og gemt på enheden.');break;
+ case 'day':activeDay=Number(index);render();break;
+ case 'offer':offerModal('',ingredient,store);break;
+ case 'edit-offer':offerModal(id);break;
+ case 'delete-offer':state.offers=state.offers.filter(o=>o.id!==id);recalculate();render();toast('Prisen er fjernet. Kurven er genberegnet.');break;
+ case 'pantry':pantryModal(ingredient);break;
+ case 'delete-pantry':state.pantry=state.pantry.filter(r=>r.id!==id);recalculate();render();break;
+ case 'recipe':recipeModal(id,Number(b.dataset.servings)||1);break;
+ case 'swap':swapModal(Number(index));break;
+ case 'choose-swap':{
+  const days=structuredClone(state.plan.days);days[Number(index)].meals.dinner=id;
+  let run=0,last='';for(const d of days){run=d.meals.dinner===last?run+1:1;last=d.meals.dinner;if(run>state.profile.maxRepeat){toast('Retten ville gentage sig flere dage end dit valgte maksimum. Vælg en anden ret.');return;}}
+  state.plan=calculatePlan({days,profile:state.profile,recipes:recipes(),ingredients:INGREDIENTS,offers:state.offers,pantry:state.pantry});state.checked={};state.cookedWeights={};persist();closeModal();render();toast('Retten er udskiftet. Hele ugens indkøb er genberegnet.');break;
+ }
+ case 'custom-recipe':customRecipeModal(id);break;
+ case 'close':closeModal();break;
+ case 'export':exportState(state);toast('Sikkerhedskopi er klar. Gem filen et sikkert sted.');break;
+ case 'import':$('#backup-file').click();break;
+ case 'history':state.plan=structuredClone(state.history[Number(index)]);state.profile={...base.profile,...state.plan.profile};state.checked={};state.cookedWeights={};persist();view='week';activeDay=-1;render();toast('Gemt uge åbnet med de oprindelige priser og opskrifter.');break;
+ case 'refresh-offers':{
+  busy=true;render();const result=await fetchOffers({postalCode:state.profile.postalCode,date:state.profile.date});
+  if(Array.isArray(result.offers))for(const o of result.offers){const i=state.offers.findIndex(x=>x.id===o.id);if(i<0)state.offers.push(o);else if(!state.offers[i].manual)state.offers[i]=o;}
+  state.statuses=result.statuses||[];recalculate();busy=false;render();toast(result.offers?.length?'Se dato og kilde på hver pris.':'Ingen nye automatiske priser. Brug tilbudsaviserne og indtast manuelt.');break;
+ }
+ }
+ }catch(error){busy=false;toast(error.message||'Handlingen kunne ikke gennemføres.');}
+});
+document.addEventListener('change',async e=>{
+ const input=e.target;
+ if(input.dataset.cooked){const total=Number(input.value),count=Number(input.dataset.servings);if(input.value!==''&&Number.isFinite(total)&&total>=0){state.cookedWeights||={};state.cookedWeights[input.dataset.cooked]=total;const output=document.getElementById('weigh-'+input.dataset.cooked);if(output)output.textContent=grams(total/count)+' i hver madkasse';persist();}else if(input.value===''){delete (state.cookedWeights||{})[input.dataset.cooked];const output=document.getElementById('weigh-'+input.dataset.cooked);if(output)output.textContent='Vej hele den færdige mængde';persist();}}
+ if(input.dataset.profile){const key=input.dataset.profile;if(key==='postalCode'&&!/^\d{4}$/.test(input.value)){toast('Angiv et dansk postnummer med fire cifre.');return;}if(key==='date'&&!/^\d{4}-\d{2}-\d{2}$/.test(input.value))return;state.profile[key]=['persons','maxStores'].includes(key)&&input.value!=='free'?Number(input.value):input.value;recalculate(key==='mode'||key==='date');activeDay=-1;render();toast('Ugen er genberegnet. Dit budget er bevaret.');}
+ if(input.dataset.check){state.checked[input.dataset.check]=input.checked;persist();input.closest('.list-row').classList.toggle('checked',input.checked);}
+ if(input.name==='ingredientId'&&$('#offer-weight-note'))$('#offer-weight-note').textContent=INGREDIENTS[input.value]?.weightNote||'';
+ if(input.id==='backup-file'&&input.files[0]){try{const backup=await importBackup(input.files[0]);showModal('Indlæs sikkerhedskopi',`<p>Dette erstatter din nuværende profil, dit lager og dine gemte planer med filens indhold. Eksportér først, hvis du vil bevare den nuværende opsætning.</p><div class="form-actions"><button class="secondary" data-action="close">Annuller</button><button class="primary" id="confirm-import">Erstat med sikkerhedskopi</button></div>`);$('#confirm-import').addEventListener('click',()=>{state={...base,...backup,profile:{...base.profile,...backup.profile}};storageBlocked=false;persist();if(!state.plan)recalculate(true);closeModal();render();toast('Sikkerhedskopien er indlæst.');},{once:true});}catch(err){toast(err.message);}input.value='';}
+});
+document.addEventListener('submit',e=>{
+ const form=e.target;if(!['profile-form','offer-form','pantry-form','recipe-form'].includes(form.id))return;e.preventDefault();const f=new FormData(form),num=k=>Number(f.get(k));
+ try{
+ if(form.id==='profile-form'){
+  state.profile={...state.profile,budget:num('budget'),postalCode:f.get('postalCode'),date:f.get('date'),maxRepeat:num('maxRepeat'),allowFish:f.has('allowFish'),allowVegetarian:f.has('allowVegetarian'),members:f.getAll('members'),targets:[0,1].map(i=>Object.fromEntries(['kcal','protein','carbs','fat'].map(k=>[k,Number(f.get(`target-${i}-${k}`))||null])))};recalculate(true);
+ }
+ if(form.id==='offer-form'){
+  const hasPrice=f.get('price')!=='',hasBundle=f.get('bundleCount')!==''&&f.get('bundlePrice')!=='';
+  if(!hasPrice&&!hasBundle)throw Error('Angiv enten pris pr. pakke eller et komplet flerstykstilbud.');
+  if((f.get('bundleCount')!==''||f.get('bundlePrice')!=='')&&!hasBundle)throw Error('Angiv både antal pakker og samlet flerstykspris.');
+  if(f.get('validFrom')>f.get('validTo'))throw Error('Slutdatoen skal være på eller efter startdatoen.');
+  const o={id:form.dataset.id||`manual-${crypto.randomUUID?.()||Date.now()}`,name:f.get('name').trim(),ingredientId:f.get('ingredientId'),store:f.get('store'),packageGrams:num('packageGrams'),price:hasPrice?num('price'):null,multiBuy:hasBundle?{count:num('bundleCount'),price:num('bundlePrice')}:null,memberOnly:f.has('memberOnly'),type:f.get('type'),validFrom:f.get('validFrom'),validTo:f.get('validTo'),postalCode:f.get('postalCode'),source:f.get('source').trim(),manual:true,verifiedAt:new Date().toISOString()};
+  if(!o.name||!o.source)throw Error('Varenavn og kilde skal udfyldes.');const idx=state.offers.findIndex(x=>x.id===o.id);if(idx>=0)state.offers[idx]=o;else state.offers.push(o);recalculate();
+ }
+ if(form.id==='pantry-form'){const id=f.get('id');state.pantry=state.pantry.filter(r=>r.id!==id);if(num('grams')>0)state.pantry.push({id,grams:num('grams')});recalculate();}
+ if(form.id==='recipe-form'){
+  const r={id:form.dataset.id||`own-${crypto.randomUUID?.()||Date.now()}`,name:f.get('name').trim(),category:f.get('category'),diet:f.get('diet'),minutes:num('minutes'),ingredients:Object.keys(INGREDIENTS).map(id=>({id,grams:num(`grams-${id}`)})).filter(i=>i.grams>0),steps:f.get('steps').split('\n').map(s=>s.trim()).filter(Boolean),description:'Din egen opskrift, gemt på enheden.',storage:'Køl hurtigt ned i lave madkasser. Højst 2 dage på køl ved maks. 5 °C; frys resterende portioner. Optø i køleskab og genopvarm til mindst 75 °C.'};
+  if(!r.name||!r.ingredients.length||!r.steps.length)throw Error('Angiv navn, mindst én ingrediens og tilberedningstrin.');
+  if(r.category==='dinner'&&r.diet==='meat'&&!r.ingredients.some(i=>INGREDIENTS[i.id]?.isMeat))throw Error('En kødaftensmad skal indeholde råt kød.');
+  if(r.diet==='vegetarian'&&r.ingredients.some(i=>INGREDIENTS[i.id]?.isMeat||INGREDIENTS[i.id]?.category==='fish'))throw Error('En vegetarret kan ikke indeholde kød eller fisk.');
+  if(r.diet==='fish'&&!r.ingredients.some(i=>INGREDIENTS[i.id]?.category==='fish'))throw Error('En fiskeret skal indeholde fisk.');
+  r.ingredients=recipeIngredients(r,INGREDIENTS);const idx=state.customRecipes.findIndex(x=>x.id===r.id);if(idx<0)state.customRecipes.push(r);else state.customRecipes[idx]=r;recalculate();
+ }
+ closeModal();render();toast('Gemt på enheden. Ugen er genberegnet.');
+ }catch(err){toast(err.message);}
+});
+document.addEventListener('keydown',e=>{
+ if(!modal)return;if(e.key==='Escape')closeModal();
+ if(e.key==='Tab'){const items=[...document.querySelectorAll('.dialog button,.dialog a,.dialog input,.dialog select,.dialog textarea,.dialog summary')].filter(x=>!x.disabled&&x.getClientRects().length);if(!items.length)return;const first=items[0],last=items.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}
+});
+window.addEventListener('online',()=>render());window.addEventListener('offline',()=>render());
+render();
+if('serviceWorker' in navigator&&window.isSecureContext){navigator.serviceWorker.register('./sw.js').then(async reg=>{await navigator.serviceWorker.ready;const ready=await caches.has('sondagsro-flat-v2');if(!ready)console.info('Offlinecache forberedes.');}).catch(()=>toast('Offlinefiler kunne ikke gemmes. Åbn appen igen med internet.'));}
+
+document.addEventListener('click', e=>{const link=e.target.closest('a[href^="./docs/"]');if(!link)return;const key=link.getAttribute('href').split('/').pop().replace('.md','');if(!__docs[key])return;e.preventDefault();e.stopImmediatePropagation();showModal(({INSTALLATION:'Installér på iPhone',NUTRITION:'Næringskilder',SOURCES:'Tilbudskilder'})[key],'<div style="white-space:pre-wrap;font-size:12px;line-height:1.85">'+esc(__docs[key])+'</div>');},true);
+return {};
+})();
+</script></body>
 </html>
